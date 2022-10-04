@@ -1,7 +1,13 @@
-# Getting Started with Create React App
+# News public
+## Developer
+Kapustin A.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Новостной паблик в котором, по задумке разработчика, будут выводится новости с возможностью оставлять комментарии. 
+> Если разработчик осилит то возможно новости будут разбиты по тематикам, тематики заранее известны. 
+> Разработчик хочет одолеть этот проект на React. 
+> Да поможет ему Всевышний.
 
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 ## Available Scripts
 
 In the project directory, you can run:
