@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.all {
+  display: grid;
+  grid-template-columns:  1000px;
+  grid-template-rows: 100px 50px 87vh 30px;
+  grid-template-areas:
+  "header"
+  "nav"
+  "news"
+  "futor";
+  justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header{
+  grid-area: header;
+  background-color: cornflowerblue;
+  display: flex;
+  
+}
+
+.header__logo{
+  background-color: darksalmon;
+  flex-grow: 2;
+}
+  
+.header__weather{
+  background-color: darkseagreen;
+  flex-grow: 1;
+}
+
+.header__exchange{
+  background-color: darkkhaki;
+  flex-grow: 1;
+}
+
+.nav{
+  grid-area: nav;
+  background-color: hotpink;
+  display: flex;
+}
+
+.nav__categories{
+  background-color: moccasin;
+  flex-grow: 4;
+}
+
+.nav__search{
+  background-color: lavender;
+  flex-grow: 1;
+}
+
+.news{
+  grid-area: news;
+  background-color: yellowgreen;
+}
+
+.futor{
+  grid-area: futor;
+  background-color: gold;
 }
