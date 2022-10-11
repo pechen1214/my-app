@@ -1,7 +1,7 @@
 .all {
   display: grid;
   grid-template-columns: 1000px;
-  grid-template-rows: 100px 50px 87vh 30px;
+  grid-template-rows: 100px 30px 85vh 30px;
   grid-template-areas:
     "header"
     "nav"
@@ -40,7 +40,7 @@
 
 .nav__categories {
   background-color: moccasin;
-  flex-grow: 4;
+  flex-grow: 5;
 }
 
 .nav__search {

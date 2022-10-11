@@ -1,5 +1,7 @@
 import './App.css';
 import Exchange from './exchange'
+import Menu from './menu';
+import Search from './search';
 
 function App() {
   return (
@@ -20,10 +22,10 @@ function App() {
         </div>
         <div className="nav">
           <div className="nav__categories">
-            Меню
+            <Menu/>
           </div>
           <div className="nav__search">
-            Поиск
+            <Search/>
           </div>
         </div>
         <div className="news">
