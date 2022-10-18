@@ -1,0 +1,22 @@
+.search {
+  grid-area: search;
+  background-color: $primary-color;
+  color: #ffffff;
+
+  &__form__input {
+    width: 390px;
+    color: #023b85;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+
+  .search {
+    height: 28px;
+
+    &__form__input {
+      width: 70%;
+    }
+  }
+}

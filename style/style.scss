@@ -1,0 +1,45 @@
+$font-stack:    Stratos, sans-serif;
+$primary-color:  #023b85;
+
+@import 'header';
+@import 'search';
+@import 'nav';
+@import 'news';
+@import 'futor';
+
+
+
+body {
+    margin: 0;
+}
+  
+  .all {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 430px 240px 220px;
+    grid-template-rows: 150px 50px 30px 1fr 30px;
+    grid-template-areas:
+      "logo weather exchange"
+      "logo search search"
+      "nav nav nav"
+      "news news news"
+      "futor futor futor";
+    justify-content: center;
+  }
+  
+    
+@media screen and (max-width: 890px) {
+
+    .all {
+      grid-template-columns: 160px auto;
+      grid-template-rows: auto auto auto auto auto auto;
+      grid-gap: 0px;
+      grid-template-areas:
+        "logo weather"
+        "logo exchange"
+        "search search"
+        "nav nav"
+        "news news"
+        "futor futor";
+    }
+  }

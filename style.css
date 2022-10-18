@@ -1,0 +1,223 @@
+.header__logo {
+  grid-area: logo;
+  background-color: #023b85;
+}
+.header__logo__img {
+  width: 200px;
+  padding-left: 30px;
+}
+
+.header__weather {
+  grid-area: weather;
+  background-color: #023b85;
+  display: flex;
+  align-items: center;
+}
+.header__weather__cont {
+  display: flex;
+  flex-grow: 1;
+  align-items: stretch;
+}
+.header__weather__cont__day {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+.header__weather__cont__day__icon {
+  width: 30px;
+  height: 100%;
+}
+.header__weather__cont__day__td {
+  flex-direction: column;
+  font-family: Stratos, sans-serif;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.header__exchange {
+  grid-area: exchange;
+  background-color: #023b85;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__exchange__table {
+  font-family: Stratos, sans-serif;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 890px) {
+  .header__logo__img {
+    width: 100px;
+    padding-left: 8px;
+  }
+  .header__weather {
+    justify-content: flex-end;
+  }
+  .header__weather__cont {
+    flex-grow: unset;
+    padding-right: 20px;
+  }
+  .header__exchange {
+    justify-content: flex-end;
+    padding-right: 20px;
+  }
+}
+.search {
+  grid-area: search;
+  background-color: #023b85;
+  color: #ffffff;
+}
+.search__form__input {
+  width: 390px;
+  color: #023b85;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 890px) {
+  .search {
+    height: 28px;
+  }
+  .search__form__input {
+    width: 70%;
+  }
+}
+.nav {
+  grid-area: nav;
+  background-color: #023b85;
+  display: flex;
+  padding-left: 5px;
+}
+.nav__menu {
+  background-color: #023b85;
+  padding: 0;
+  margin: 0;
+}
+.nav__menu__item {
+  display: inline;
+  border-bottom-width: 0px;
+  padding: 2px 5px 12px 5px;
+}
+.nav__menu__item__active {
+  border-bottom-width: 0px;
+  padding: 2px 5px 12px 5px;
+  display: inline;
+  background-color: #ffffff;
+}
+.nav__menu__item__buton__active {
+  text-decoration: none;
+  font-family: Stratos, sans-serif;
+  text-transform: uppercase;
+  color: #023b85;
+}
+.nav__menu__item__buton {
+  text-decoration: none;
+  font-family: Stratos, sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 890px) {
+  .nav {
+    font-size: 14px;
+  }
+  .nav__menu__item {
+    padding: 2px 1px 12px 1px;
+  }
+  .nav__menu__item__active {
+    padding: 2px 1px 12px 1px;
+  }
+}
+.news {
+  grid-area: news;
+  background-color: #023b85;
+}
+.news__window {
+  background-color: #ffffff;
+  margin: 0px 5px;
+  height: 100%;
+}
+.news__window__item {
+  padding: 10px 25px;
+}
+.news__window__item__date {
+  display: block;
+  padding: 1px 0 7px;
+  font-size: 13px;
+  line-height: 16px;
+  color: #999;
+}
+.news__window__item__href {
+  display: block;
+  font-size: 34px;
+  line-height: 36px;
+  font-family: Stratos, sans-serif;
+  text-decoration: none;
+  color: #023b85;
+}
+.news__window__item__head__image {
+  display: block;
+  margin: 13px 0 16px;
+}
+.news__window__item__head__item-image {
+  display: block;
+  max-width: 100%;
+}
+.news__window__item__description {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Kazimir, "Helvetica CY", Arial, sans-serif;
+}
+
+@media screen and (max-width: 890px) {
+  .news__window__item__date {
+    font-size: 12px;
+  }
+  .news__window__item__href {
+    font-size: 20px;
+  }
+  .news__window__item__head__item-image {
+    display: block;
+    max-width: 100%;
+  }
+  .news__window__item__description {
+    font-size: 14px;
+  }
+}
+.futor {
+  grid-area: futor;
+  background-color: #023b85;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 12px;
+  font-family: Stratos, sans-serif;
+  padding: 2px;
+}
+
+body {
+  margin: 0;
+}
+
+.all {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 430px 240px 220px;
+  grid-template-rows: 150px 50px 30px 1fr 30px;
+  grid-template-areas: "logo weather exchange" "logo search search" "nav nav nav" "news news news" "futor futor futor";
+  justify-content: center;
+}
+
+@media screen and (max-width: 890px) {
+  .all {
+    grid-template-columns: 160px auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-gap: 0px;
+    grid-template-areas: "logo weather" "logo exchange" "search search" "nav nav" "news news" "futor futor";
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
