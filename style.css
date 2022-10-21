@@ -1,65 +1,66 @@
-.header__logo {
+.header-logo {
   grid-area: logo;
   background-color: #023b85;
 }
-.header__logo__img {
+.header-logo__img {
   width: 200px;
   padding-left: 30px;
 }
 
-.header__weather {
+.header-weather {
   grid-area: weather;
   background-color: #023b85;
   display: flex;
   align-items: center;
 }
-.header__weather__cont {
+.header-weather__cont {
   display: flex;
   flex-grow: 1;
   align-items: stretch;
 }
-.header__weather__cont__day {
+
+.weather-day {
   flex-grow: 1;
   display: flex;
   align-items: center;
 }
-.header__weather__cont__day__icon {
+.weather-day__icon {
   width: 30px;
   height: 100%;
 }
-.header__weather__cont__day__td {
+.weather-day__td {
   flex-direction: column;
   font-family: Stratos, sans-serif;
   color: #ffffff;
   font-size: 13px;
 }
 
-.header__exchange {
+.header-exchange {
   grid-area: exchange;
   background-color: #023b85;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.header__exchange__table {
+.header-exchange__table {
   font-family: Stratos, sans-serif;
   color: #ffffff;
   font-size: 13px;
 }
 
 @media screen and (max-width: 890px) {
-  .header__logo__img {
+  .header-logo__img {
     width: 100px;
     padding-left: 8px;
   }
-  .header__weather {
+  .header-weather {
     justify-content: flex-end;
   }
-  .header__weather__cont {
+  .header-weather__cont {
     flex-grow: unset;
     padding-right: 20px;
   }
-  .header__exchange {
+  .header-exchange {
     justify-content: flex-end;
     padding-right: 20px;
   }
@@ -69,18 +70,24 @@
   background-color: #023b85;
   color: #ffffff;
 }
-.search__form__input {
+
+.search-form {
+  padding-left: 8px;
+}
+.search-form__input {
   width: 390px;
   color: #023b85;
-  margin-left: 10px;
 }
 
 @media screen and (max-width: 890px) {
   .search {
     height: 28px;
   }
-  .search__form__input {
-    width: 70%;
+  .search-form {
+    padding-left: 4px;
+  }
+  .search-form__input {
+    width: 93%;
   }
 }
 .nav {
@@ -94,38 +101,40 @@
   padding: 0;
   margin: 0;
 }
-.nav__menu__item {
+.nav__item {
   display: inline;
   border-bottom-width: 0px;
   padding: 2px 5px 12px 5px;
 }
-.nav__menu__item__active {
+.nav__item_active {
   border-bottom-width: 0px;
   padding: 2px 5px 12px 5px;
   display: inline;
   background-color: #ffffff;
 }
-.nav__menu__item__buton__active {
-  text-decoration: none;
-  font-family: Stratos, sans-serif;
-  text-transform: uppercase;
-  color: #023b85;
-}
-.nav__menu__item__buton {
+
+.menu-buton {
   text-decoration: none;
   font-family: Stratos, sans-serif;
   text-transform: uppercase;
   color: #ffffff;
 }
 
+.menu-buton_active {
+  text-decoration: none;
+  font-family: Stratos, sans-serif;
+  text-transform: uppercase;
+  color: #023b85;
+}
+
 @media screen and (max-width: 890px) {
   .nav {
     font-size: 14px;
   }
-  .nav__menu__item {
+  .nav__item {
     padding: 2px 1px 12px 1px;
   }
-  .nav__menu__item__active {
+  .nav__item_active {
     padding: 2px 1px 12px 1px;
   }
 }
@@ -138,17 +147,18 @@
   margin: 0px 5px;
   height: 100%;
 }
-.news__window__item {
+
+.news-item {
   padding: 10px 25px;
 }
-.news__window__item__date {
+.news-item__date {
   display: block;
   padding: 1px 0 7px;
   font-size: 13px;
   line-height: 16px;
   color: #999;
 }
-.news__window__item__href {
+.news-item__href {
   display: block;
   font-size: 34px;
   line-height: 36px;
@@ -156,15 +166,15 @@
   text-decoration: none;
   color: #023b85;
 }
-.news__window__item__head__image {
+.news-item__image {
   display: block;
   margin: 13px 0 16px;
 }
-.news__window__item__head__item-image {
+.news-item__item-image {
   display: block;
   max-width: 100%;
 }
-.news__window__item__description {
+.news-item__description {
   display: block;
   margin-top: 10px;
   font-size: 16px;
@@ -173,17 +183,17 @@
 }
 
 @media screen and (max-width: 890px) {
-  .news__window__item__date {
+  .news-item__date {
     font-size: 12px;
   }
-  .news__window__item__href {
+  .news-item__href {
     font-size: 20px;
   }
-  .news__window__item__head__item-image {
+  .news-item__item-image {
     display: block;
     max-width: 100%;
   }
-  .news__window__item__description {
+  .news-item__description {
     font-size: 14px;
   }
 }

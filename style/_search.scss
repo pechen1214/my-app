@@ -1,12 +1,16 @@
 .search {
   grid-area: search;
   background-color: $primary-color;
-  color: #ffffff;
+  color: $second-color;
+}
 
-  &__form__input {
+.search-form {
+  padding-left: 8px;
+
+
+  &__input {
     width: 390px;
-    color: #023b85;
-    margin-left: 10px;
+    color: $primary-color
   }
 }
 
@@ -14,9 +18,13 @@
 
   .search {
     height: 28px;
+  }
 
-    &__form__input {
-      width: 70%;
+  .search-form {
+    padding-left: 4px;
+
+    &__input {
+      width: 93%;
     }
   }
 }

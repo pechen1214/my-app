@@ -1,4 +1,4 @@
-.header__logo {
+.header-logo {
   grid-area: logo;
   background-color: $primary-color;
 
@@ -9,7 +9,7 @@
 }
 
 
-.header__weather {
+.header-weather {
   grid-area: weather;
   background-color: $primary-color;
   display: flex;
@@ -19,30 +19,30 @@
     display: flex;
     flex-grow: 1;
     align-items: stretch;
+  }
+}
 
-    &__day {
-      flex-grow: 1;
-      display: flex;
-      align-items: center;
+.weather-day {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
 
 
-      &__icon {
-        width: 30px;
-        height: 100%;
-      }
+  &__icon {
+    width: 30px;
+    height: 100%;
+  }
 
-      &__td {
-        flex-direction: column;
-        font-family: $font-stack;
-        color: #ffffff;
-        font-size: 13px;
-      }
-    }
+  &__td {
+    flex-direction: column;
+    font-family: $font-stack;
+    color: $second-color;
+    font-size: 13px
   }
 }
 
 
-.header__exchange {
+.header-exchange {
   grid-area: exchange;
   background-color: $primary-color;
   display: flex;
@@ -52,19 +52,19 @@
 
   &__table {
     font-family: $font-stack;
-    color: #ffffff;
+    color: $second-color;
     font-size: 13px;
   }
 }
 
 @media screen and (max-width: 890px) {
 
-  .header__logo__img {
+  .header-logo__img {
     width: 100px;
     padding-left: 8px;
   }
 
-  .header__weather {
+  .header-weather {
     justify-content: flex-end;
 
     &__cont {
@@ -73,7 +73,7 @@
     }
   }
 
-  .header__exchange {
+  .header-exchange {
     justify-content: flex-end;
     padding-right: 20px;
   }
