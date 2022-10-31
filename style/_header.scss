@@ -1,80 +1,26 @@
-.header-logo {
-  grid-area: logo;
-  background-color: $primary-color;
-
-  &__img {
-    width: 200px;
-    padding-left: 30px;
-  }
-}
+@import 'logo';
+@import 'weather';
+@import 'exchange';
+@import 'search';
+@import 'media_mixin';
 
 
-.header-weather {
-  grid-area: weather;
-  background-color: $primary-color;
-  display: flex;
-  align-items: center;
+.header {
+  color: $second-color;
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: 422px 240px 220px;
+  grid-template-rows: 150px 50px;
+  grid-template-areas:
+    "logo weather exchange"
+    "logo search search";
 
-  &__cont {
-    display: flex;
-    flex-grow: 1;
-    align-items: stretch;
-  }
-}
-
-.weather-day {
-  flex-grow: 1;
-  display: flex;
-  align-items: center;
-
-
-  &__icon {
-    width: 30px;
-    height: 100%;
-  }
-
-  &__td {
-    flex-direction: column;
-    font-family: $font-stack;
-    color: $second-color;
-    font-size: 13px
-  }
-}
-
-
-.header-exchange {
-  grid-area: exchange;
-  background-color: $primary-color;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-
-  &__table {
-    font-family: $font-stack;
-    color: $second-color;
-    font-size: 13px;
-  }
-}
-
-@media screen and (max-width: 890px) {
-
-  .header-logo__img {
-    width: 100px;
-    padding-left: 8px;
-  }
-
-  .header-weather {
-    justify-content: flex-end;
-
-    &__cont {
-      flex-grow: unset;
-      padding-right: 20px;
-    }
-  }
-
-  .header-exchange {
-    justify-content: flex-end;
-    padding-right: 20px;
+  @include mobile {
+    font-size: 11px;
+    grid-template-columns: 1fr 150px 130px;
+    grid-template-rows: 80px 30px;
+    grid-template-areas:
+      "logo weather exchange"
+      "search search search";
   }
 }

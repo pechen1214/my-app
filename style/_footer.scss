@@ -1,0 +1,13 @@
+@import 'media_mixin';
+
+.footer {
+  color: $second-color;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 12px;
+
+  @include mobile {
+    font-size: 10px;
+  }
+
+}

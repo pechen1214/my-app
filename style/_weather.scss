@@ -1,0 +1,20 @@
+@import 'media_mixin';
+
+.header-weather {
+  grid-area: weather;
+  display: flex;
+}
+
+.weather-day {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+
+
+  &__icon {
+    font-size: 28px;
+    @include mobile {
+      font-size: 16px;
+    }
+  }
+}

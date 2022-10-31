@@ -1,47 +1,26 @@
-$font-stack:    Stratos, sans-serif;
-$font-description: Kazimir, 'Helvetica CY', Arial, sans-serif;
-$primary-color:  #023b85;
-$second-color: #ffffff;
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Jost&family=Play&display=swap');
+@import 'variables';
 @import 'header';
 @import 'search';
 @import 'nav';
 @import 'news';
-@import 'futor';
+@import 'footer';
+
+
 
 
 
 body {
-    margin: 0;
-}
+  font-family: $font-stack;
+
   
   .all {
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns: 430px 240px 220px;
-    grid-template-rows: 150px 50px 30px 1fr 30px;
-    grid-template-areas:
-      "logo weather exchange"
-      "logo search search"
-      "nav nav nav"
-      "news news news"
-      "futor futor futor";
-    justify-content: center;
+    max-width: 890px;
+    min-width: 380px;
+    margin: auto;
+    background-color: $primary-color;
+    box-sizing: border-box;
+    padding: 4px;
+    height: 100%;
   }
-  
-    
-@media screen and (max-width: 890px) {
-
-    .all {
-      grid-template-columns: 160px auto;
-      grid-template-rows: auto auto auto auto auto auto;
-      grid-gap: 0px;
-      grid-template-areas:
-        "logo weather"
-        "logo exchange"
-        "search search"
-        "nav nav"
-        "news news"
-        "futor futor";
-    }
-  }
+}

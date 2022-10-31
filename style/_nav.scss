@@ -1,11 +1,15 @@
+@import 'media_mixin';
+
 .nav {
   grid-area: nav;
-  background-color: $primary-color;
-  display: flex;
-  padding-left: 5px;
+  height: 25px;
+
+  @include mobile {
+    height: 23px;
+    font-size: 14px;
+  }
 
   &__menu {
-    background-color: $primary-color;
     padding: 0;
     margin: 0;
   }
@@ -13,44 +17,33 @@
   &__item {
     display: inline;
     border-bottom-width: 0px;
-    padding: 2px 5px 12px 5px;
+    padding: 0px 4px 6px 4px;
+    @include mobile {
+
+    }
   }
 
   &__item_active {
     border-bottom-width: 0px;
-    padding: 2px 5px 12px 5px;
     display: inline;
     background-color: $second-color;
+    padding: 0px 8px 6px 8px;
+    @include mobile {
+      padding: 0px 4px 6px 4px;
+    }
   }
 }
 
-.menu-buton {
+.menu-button {
   text-decoration: none;
   font-family: $font-stack;
   text-transform: uppercase;
   color: $second-color;
 }
 
-.menu-buton_active {
+.menu-button_active {
   text-decoration: none;
   font-family: $font-stack;
   text-transform: uppercase;
   color: $primary-color;
-}
-
-
-
-@media screen and (max-width: 890px) {
-
-  .nav {
-    font-size: 14px;
-
-    &__item {
-      padding: 2px 1px 12px 1px;
-    }
-
-    &__item_active {
-      padding: 2px 1px 12px 1px
-    }
-  }
 }

@@ -1,33 +1,40 @@
+@import 'media_mixin';
+
 .news {
   grid-area: news;
-  background-color: $primary-color;
+  background-color: $second-color;
 
-  &__window {
-    background-color: $second-color;
-    margin: 0px 5px;
-    height: 100%;
-  }
 }
 
 .news-item {
   padding: 10px 25px;
 
-  &__date {
-    display: block;
-    padding: 1px 0 7px;
-    font-size: 13px;
-    line-height: 16px;
-    color: #999;
+  @include mobile {
+    padding: 4px 8px;
   }
 
   &__href {
     display: block;
-    font-size: 34px;
-    line-height: 36px;
-    font-family: $font-stack;
     text-decoration: none;
     color: $primary-color;
   }
+
+  &__date {
+    display: block;
+    font-size: 13px;
+    color: #999;
+
+  }
+
+  &__title {
+    margin-top: 4px;
+    font-size: 24px;
+
+    @include mobile {
+      font-size: 20px;
+    }
+  }
+
 
   &__image {
     display: block;
@@ -41,10 +48,11 @@
 
   &__description {
     display: block;
-    margin-top: 10px;
-    font-size: 16px;
-    line-height: 22px;
-    font-family: $font-description;
+    font-size: 18px;
+
+    @include mobile {
+      font-size: 16px
+    }
   }
 }
 

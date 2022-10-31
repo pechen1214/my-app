@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Jost&family=Play&display=swap");
+.header-logo {
+  grid-area: logo;
+  padding-left: 30px;
+}
+@media (max-width: 890px) {
+  .header-logo {
+    padding-left: 4px;
+  }
+}
+.header-logo__img {
+  width: 200px;
+}
+@media (max-width: 890px) {
+  .header-logo__img {
+    width: 80px;
+  }
+}
+
+.header-weather {
+  grid-area: weather;
+  display: flex;
+}
+
+.weather-day {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+.weather-day__icon {
+  font-size: 28px;
+}
+@media (max-width: 890px) {
+  .weather-day__icon {
+    font-size: 16px;
+  }
+}
+
+.header-exchange {
+  grid-area: exchange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-search {
+  grid-area: search;
+}
+
+.search-form {
+  margin: auto;
+}
+.search-form__input {
+  width: 95%;
+}
+.search-form__button {
+  padding: 0;
+  border: none;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.header {
+  color: #ffffff;
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: 422px 240px 220px;
+  grid-template-rows: 150px 50px;
+  grid-template-areas: "logo weather exchange" "logo search search";
+}
+@media (max-width: 890px) {
+  .header {
+    font-size: 11px;
+    grid-template-columns: 1fr 150px 130px;
+    grid-template-rows: 80px 30px;
+    grid-template-areas: "logo weather exchange" "search search search";
+  }
+}
+
+.header-search {
+  grid-area: search;
+}
+
+.search-form {
+  margin: auto;
+}
+.search-form__input {
+  width: 95%;
+}
+.search-form__button {
+  padding: 0;
+  border: none;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.nav {
+  grid-area: nav;
+  height: 25px;
+}
+@media (max-width: 890px) {
+  .nav {
+    height: 23px;
+    font-size: 14px;
+  }
+}
+.nav__menu {
+  padding: 0;
+  margin: 0;
+}
+.nav__item {
+  display: inline;
+  border-bottom-width: 0px;
+  padding: 0px 4px 6px 4px;
+}
+.nav__item_active {
+  border-bottom-width: 0px;
+  display: inline;
+  background-color: #ffffff;
+  padding: 0px 8px 6px 8px;
+}
+@media (max-width: 890px) {
+  .nav__item_active {
+    padding: 0px 4px 6px 4px;
+  }
+}
+
+.menu-button {
+  text-decoration: none;
+  font-family: "Fira Sans", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.menu-button_active {
+  text-decoration: none;
+  font-family: "Fira Sans", sans-serif;
+  text-transform: uppercase;
+  color: #11438d;
+}
+
+.news {
+  grid-area: news;
+  background-color: #ffffff;
+}
+
+.news-item {
+  padding: 10px 25px;
+}
+@media (max-width: 890px) {
+  .news-item {
+    padding: 4px 8px;
+  }
+}
+.news-item__href {
+  display: block;
+  text-decoration: none;
+  color: #11438d;
+}
+.news-item__date {
+  display: block;
+  font-size: 13px;
+  color: #999;
+}
+.news-item__title {
+  margin-top: 4px;
+  font-size: 24px;
+}
+@media (max-width: 890px) {
+  .news-item__title {
+    font-size: 20px;
+  }
+}
+.news-item__image {
+  display: block;
+  margin: 13px 0 16px;
+}
+.news-item__item-image {
+  display: block;
+  max-width: 100%;
+}
+.news-item__description {
+  display: block;
+  font-size: 18px;
+}
+@media (max-width: 890px) {
+  .news-item__description {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .news-item__date {
+    font-size: 12px;
+  }
+  .news-item__href {
+    font-size: 20px;
+  }
+  .news-item__item-image {
+    display: block;
+    max-width: 100%;
+  }
+  .news-item__description {
+    font-size: 14px;
+  }
+}
+.footer {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 12px;
+}
+@media (max-width: 890px) {
+  .footer {
+    font-size: 10px;
+  }
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+body .all {
+  max-width: 890px;
+  min-width: 380px;
+  margin: auto;
+  background-color: #11438d;
+  box-sizing: border-box;
+  padding: 4px;
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
