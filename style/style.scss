@@ -11,14 +11,14 @@
 
 
 body {
-  font-family: $font-stack;
+  font-family: var(--font-description);
 
   
   .all {
     max-width: 890px;
     min-width: 380px;
     margin: auto;
-    background-color: $primary-color;
+    background-color: var(--primary-color);
     box-sizing: border-box;
     padding: 4px;
     height: 100%;

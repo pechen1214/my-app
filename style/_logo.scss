@@ -1,18 +1,9 @@
 @import 'media_mixin';
 
-.header-logo {
-  grid-area: logo;
-  padding-left: 30px;
+.logo {
+  width: 200px;
 
   @include mobile {
-    padding-left: 4px;
-  }
-
-  &__img {
-    width: 200px;
-
-    @include mobile {
-      width: 80px;
-    }
+    width: 80px;
   }
 }

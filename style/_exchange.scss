@@ -1,6 +1,6 @@
-.header-exchange {
-  grid-area: exchange;
-  display: flex;
+.exchange {
   align-items: center;
   justify-content: center;
+  flex-grow: 1;
+  display: flex;
 }

@@ -2,7 +2,7 @@
 
 .news {
   grid-area: news;
-  background-color: $second-color;
+  background-color: var(--second-color);
 
 }
 
@@ -16,7 +16,7 @@
   &__href {
     display: block;
     text-decoration: none;
-    color: $primary-color;
+    color: var(--primary-color);
   }
 
   &__date {
@@ -70,7 +70,8 @@
 
     &__item-image {
       display: block;
-      max-width: 100%;
+      width: 100%;
+      height: auto;
     }
 
     &__description {

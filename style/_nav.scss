@@ -26,24 +26,24 @@
   &__item_active {
     border-bottom-width: 0px;
     display: inline;
-    background-color: $second-color;
+    background-color: var(--second-color);
     padding: 0px 8px 6px 8px;
     @include mobile {
-      padding: 0px 4px 6px 4px;
+      padding: 0px 4px 7px 4px;
     }
   }
 }
 
 .menu-button {
   text-decoration: none;
-  font-family: $font-stack;
+  font-family: var(---font-stack);
   text-transform: uppercase;
-  color: $second-color;
+  color: var(--second-color);
 }
 
 .menu-button_active {
   text-decoration: none;
-  font-family: $font-stack;
+  font-family: var(--font-stack);
   text-transform: uppercase;
-  color: $primary-color;
+  color: var(--primary-color);
 }

@@ -1,12 +1,10 @@
-.header-search {
-  grid-area: search;
-}
-
 .search-form {
-  margin: auto;
+display: flex;
+gap: 4px;
+width: 100%;
 
   &__input {
-    width: 95%;
+    flex: 1 1 auto;
   }
 
   &__button {
