@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Jost&family=Play&display=swap');
+@import 'variables';
+@import 'header';
+@import 'search';
+@import 'nav';
+@import 'news';
+@import 'footer';
+
+
+
+
+
+body {
+  font-family: var(--font-description);
+  height: 100%;
+
+  .all {
+    max-width: 890px;
+    min-width: 380px;
+    margin: auto;
+    background-color: var(--primary-color);
+    box-sizing: border-box;
+    padding: 4px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}

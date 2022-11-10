@@ -1,16 +1,34 @@
-const reqestURL = 'https://www.cbr-xml-daily.ru/latest.js'
+import React from "react";
+import { useState } from "react";
 
-const Exchange=() =>{
-    
 
-fetch(reqestURL)
+function Eur() {
+    const reqestURL = 'https://www.cbr-xml-daily.ru/latest.js'
+    fetch(reqestURL)
     .then(response => {
-        return response.json()
+    return response.json()
     })
-    .then(data => {console.log(data.rates)
-        let eur=data.rates.EUR
-        let usd=data.rates.USD
-console.log('один доллар =',1/usd,' рублей')
-console.log('один евро =',1/eur,' рублей')   
-})}
-export default Exchange;
+    .then(data => {
+    console.log(data.rates.EUR)
+    return
+    })
+    }
+
+function Ex() {
+
+const [count, setCount]=useState(1)
+
+
+const Ad = ()=> {
+    setCount(Eur)
+console.log(count)}
+
+return(
+    
+    <div>
+        <h1> {count}</h1>
+        <button onClick={Ad}> YFJ </button>
+    </div>
+)
+}
+export default Ex;
