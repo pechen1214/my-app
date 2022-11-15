@@ -3,163 +3,99 @@
         [
             {
                 "id": "f20748ea-5bd0-4058-bc1a-ac842ae434b4",
-                "daie": "31/07/2022",
-                "title": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n\nCurabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
-                "article": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
-                "image": "http://dummyimage.com/182x100.png/ff4444/ffffff",
-                "category": "Day of the Animals"
+                "date": "31/07/2022",
+                "title": "Макрон и Си Цзиньпин выступили за возобновление переговоров между РФ и Украиной.",
+                "article": "Генеральный секретарь ЦК Коммунистической партии Китая Си Цзиньпин и президент Франции Эммануэль Макрон выступили за прекращение огня на Украине и возобновление мирных переговоров между Киевом и Москвой. Об этом во вторник, 15 ноября, сообщает телеканал CCTV. «Нужно прекратить огонь, остановить конфликт и приступить к проведению мирных переговоров», — сказал Си Цзиньпин. Как сообщает телеканал, Макрон в свою очередь заявил о готовности французской стороны вместе с Пекином «содействовать мирному глобальному развитию». Накануне, 14 ноября, председатель КНР и президент США Джо Байден обсудили способы урегулирования украинского конфликта. По словам Си Цзиньпина, международному сообществу необходимо помнить, что для решения подобных кризисов нужен комплексный подход. Он добавил, что в таких конфликтах не бывает победителей. Саммит лидеров G20 пройдет на острове Бали 15–16 ноября. Российскую делегацию возглавляет глава МИД РФ Сергей Лавров. Он уже прибыл к месту проведения саммита. В саммите участвуют представители делегаций КНР, Турции, Индии, Аргентины, ЮАР, Австралии, Индонезии, Бразилии, Мексики, Японии, Кореи, Саудовской Аравии, Италии, Франции, Германии, Канады, Франции, России, а также ЕС и ООН.",
+                "image": "https://cdn.iz.ru/sites/default/files/styles/900x506/public/news-2022-11/TASS_36599667.jpg?itok=uqbO8cDu",
+                "category": "politics"
             },
             {
                 "id": "9c536361-0966-495a-8970-a9a360dede48",
-                "daie": "10/01/2022",
-                "title": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.",
-                "article": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
-                "image": "http://dummyimage.com/195x100.png/ff4444/ffffff",
-                "category": "White Heat"
+                "date": "10/01/2022",
+                "title": "В ООН обеспокоились пытками пленных России и Украины.",
+                "article": "Глава Мониторинговой миссии Организации Объединенных Наций (ООН) по правам человека на Украине Матильда Богнер выразила беспокойство пытками российских и украинских пленных. Ее слова приводит РИА Новости. «Я повторю, что стороны конфликта имеют четкие правовые обязательства по расследованию и судебному преследованию всех утверждений о нарушениях международного гуманитарного права в связи с обращением с военнопленными, находящимися под их контролем, независимо от их принадлежности», — сказала она. Богнер уточнила, что Украина предоставила миссии конфиденциальный доступ к пленным в местах их пребывания. Как она утверждает, Россия этого не сделала, представители ООН проводили интервью с украинскими военнопленными после освобождения. При этом, по ее словам, обе стороны применяют пытки к пленным. Кроме того, Богнер отметила, что ООН неизвестно число удерживаемых военнопленных России и Украины. Ранее в ООН призвали Москву и Киев расследовать инциденты с предположительно имевшими место пытками военнослужащих на украинской территории. Сообщалось, что организация проверяет появившиеся материалы, в том числе изучает видеозаписи с обеих сторон..",
+                "image": "https://cdnn21.img.ria.ru/images/07e6/0b/0e/1831448308_0:0:3082:2048_1440x900_80_1_1_8f3415ce0ad37e5b6d7f5f334b884a13.jpg.webp?source-sid=rian_photo",
+                "category": "politics"
             },
             {
                 "id": "ad4e4524-f5fe-44fe-927c-f879a668714f",
-                "daie": "28/03/2022",
-                "title": "Sed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
-                "article": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
-                "image": "http://dummyimage.com/104x100.png/dddddd/000000",
-                "category": "Doomsday Prophecy"
+                "date": "28/03/2022",
+                "title": "ЛДПР открыла партийное отделение в ДНР.",
+                "article": "Руководитель регионального отделения пообещал стать опорой партии на новых территориях и заверил, что у ЛДПР в ДНР большие перспективы, сообщили либерал-демократы..",
+                "image": "https://cdnn21.img.ria.ru/images/07e6/0b/0b/1830935806_0:0:1280:960_1440x900_80_0_1_6e2d09d43102458ace30c1dbd20e6e0e.jpg.webp?source-sid=",
+                "category": "politics"
             },
             {
                 "id": "c0578358-b66d-4469-a5fb-07d18eb16501",
-                "daie": "04/12/2021",
-                "title": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
-                "article": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-                "image": "http://dummyimage.com/165x100.png/cc0000/ffffff",
-                "category": "Wicked Lady, The"
+                "date": "04/12/2021",
+                "title": "Футболисты сборной России прилетели в Душанбе на матч против Таджикистана.",
+                "article": "Сборная России по футболу прилетела в Душанбе на товарищеский матч против команды Таджикистана, сообщает корреспондент РИА Новости с места событий. По прибытии членам делегации подарили шарфы и тюбетейки. Встреча между сборными России и Таджикистана состоится 17 ноября. Также подопечные Валерия Карпина проведут товарищеский матч против команды Узбекистана 20 ноября в Ташкенте.Российские сборные и клубы отстранены от участия в международных соревнованиях на неопределенный срок.",
+                "image": "https://cdnn21.img.ria.ru/images/07e6/0a/1b/1827378704_0:0:2934:2048_1440x900_80_1_1_2917a3652ebcd38a2a08f07938732baf.jpg.webp?source-sid=rian_photo",
+                "category": "sport"
             },
             {
                 "id": "8f1349d7-a087-4677-a5e3-bf8fdbdc46e7",
-                "daie": "05/12/2021",
-                "title": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
-                "article": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
-                "image": "http://dummyimage.com/118x100.png/cc0000/ffffff",
-                "category": "It's a Bird"
+                "date": "05/12/2021",
+                "title": "Роналду прошелся по Манчестер Юнайтед и разнес собственного тренера.",
+                "article": "Летнее трансферное окно 2021-го стало самым безумным в XXI веке. Ведь сменили клубные прописки главные звезды мирового футбола: Лионель Месси со слезами ушел из родной Барселоны в создающий галактикос Пари Сен-Жермен, а заскучавший в Ювентусе Криштиану Роналду спустя 12 лет вернулся в МЮ. Но в португальской сказке не оказалось счастливого финала. В сезоне-2021/22 манкунианцы остались без Лиги чемпионов, в которой №7 побеждал целых пять раз. Расстроенный Криштиану начал паковать чемоданы, но уйти не удалось: португалец остался в стане Юнайтед и впоследствии разругался с новым главным тренером команды Эриком тен Хагом. Роналду тосковал на скамейке, психовал, отказывался выходить на замену, за что его отстраняли от тренировок с основой. И если эти события не ставили крест на отношениях спортсмена с английским грандом, то опубликованные в воскресенье отрывки интервью 37-летнего нападающего журналисту Пирсу Моргану их обязательно похоронят.",
+                "image": "https://cdnn21.img.ria.ru/images/07e6/0b/0e/1831247451_0:0:3072:2048_1440x900_80_0_1_5e7d7de64760b32dc63637032b0f2c8b.jpg.webp?source-sid=afp",
+                "category": "sport"
             },
             {
                 "id": "373a29de-c8ee-43fc-801a-663f771e6746",
-                "daie": "12/07/2022",
-                "title": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
-                "article": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
-                "image": "http://dummyimage.com/216x100.png/ff4444/ffffff",
-                "category": "I Hate Mondays, (Nie lubie poniedzialku)"
+                "date": "12/07/2022",
+                "title": "Трагедия американского фигурного катания. Секс-скандал привел к двум трупам.",
+                "article": "На днях американских фанатов фигурного катания повергли в шок. Оказалось, что Намиотка уже несколько месяцев мертва. Публике об этом стало известно лишь недавно, когда родители девушки раскрыли факт смерти дочери. Никто не говорил напрямую, что произошло с 32-летней Бриджит. Однако слова мамы фигуристки наталкивают на очевидный ответ – она покончила с собой. Намиотка выступала в парах и подавала надежды на мощную карьеру. По юниорам она каталась вместе с Джоном Кафлином, с которым и добилась главных успехов. Бриджит становилась серебряным призером юниорского первенства в США и выходила в Финал серии Гран-При. Когда девушке исполнилось 17 лет, их пути с Кафлином разошлись. Фигуристы поменяли партнеров. У Джона дела пошли в гору. На взрослом уровне он стал чемпионом США и завоевал еще несколько международных наград. Бриджит же о медалях могла только мечтать. Подтвердить статус талантливой фигуристки среди взрослых ей не удавалось. Вскоре девушка ушла из спорта. Кафлин решил остаться в фигурному катании после завершения карьеры, став тренером. Жизнь шла своим чередом, о нем с Бриджит постепенно начали забывать даже в США. На смену пришли новые герои. Девушка смогла больше времени уделить личной жизни, а Джон осваивался в роли наставника. Однако спокойствие не продлилось долго.",
+                "image": "https://cdnn21.img.ria.ru/images/07e6/0a/11/1824643907_0:0:1392:1003_1440x900_80_0_1_17fb8f52515960f451e7341f9c32edd6.jpg.webp?source-sid=not_rian_photo",
+                "category": "sport"
             },
             {
                 "id": "2371d56c-2549-4fba-9601-927237d9480f",
-                "daie": "06/12/2021",
-                "title": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-                "article": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
-                "image": "http://dummyimage.com/137x100.png/ff4444/ffffff",
-                "category": "Simpsons Movie, The"
+                "date": "06/12/2021",
+                "title": "Доля нелегального пива в России достигла максимума за 5 лет.",
+                "article": "Доля нелегального оборота пива на российском рынке на данный момент составляет более 16% - это максимальное значение за последние пять лет, снизить ее могла бы поштучная прослеживаемость, такое мнение высказал замдиректора Центра экономической экспертизы НИУ ВШЭ Сергей Кондратьев. В последние годы мы наблюдаем достаточно серьезное увеличение нелегального оборота пива и пивной продукции на рынке, и сейчас эта доля превышает 16%. Это максимум за последние 5 лет... Мы видим, что доля нелегального оборота на рынке пива и крепкого алкоголя последние годы, к сожалению, растет, тогда как доля на рынке табачных изделий начала снижаться, - заявил он на пресс-конференции Позитивные эффекты маркировки пива.",
+                "image": "https://cdnn21.img.ria.ru/images/07e5/0c/0f/1763855057_0:0:3072:2048_1440x900_80_0_1_f633e3b2b7bb334b085bcc0df7c73cf6.jpg.webp?source-sid=depositphotos",
+                "category": "economy"
             },
             {
                 "id": "95b4a808-a602-4d60-8263-eb0ca5c67de4",
-                "daie": "18/10/2022",
-                "title": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
-                "article": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.",
-                "image": "http://dummyimage.com/121x100.png/ff4444/ffffff",
-                "category": "Last Man on Earth, The (Ultimo uomo della Terra, L')"
+                "date": "18/10/2022",
+                "title": "Оператор сообщил о бесперебойных поставках нефти в Чехию по Дружбе.",
+                "article": "Нефть по южной ветке трубопровода Дружба поступает в Чехию бесперебойно, сообщила РИА Новости вечером во вторник пресс-секретарь оператора МЕРО Барбора Путцова. Никаких проблем с поставками нефти по южной ветке трубопровода Дружба в Чехию нет. Нефть поступает бесперебойно, - сказала она. ",
+                "image": "https://cdnn21.img.ria.ru/images/07e4/02/15/1565046560_0:0:3218:1730_1440x900_80_0_1_36a259847ac3a46aa245f9859c22e2cb.jpg.webp?source-sid=ap_photo",
+                "category": "economy"
             },
             {
                 "id": "db4a17fc-bd05-4893-bc81-8011a98c5e08",
-                "daie": "04/04/2022",
-                "title": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
-                "article": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.\n\nIn congue. Etiam justo. Etiam pretium iaculis justo.",
-                "image": "http://dummyimage.com/183x100.png/5fa2dd/ffffff",
-                "category": "Bad Boys II"
+                "date": "04/04/2022",
+                "title": "Монгольский кашемир может заменить ушедшие бренды, заявила Абрамченко.",
+                "article": "Россия рассчитывает, что поставки монгольского кашемира смогут заместить ушедшие из страны западные бренды, сообщила журналистам вице-премьер РФ Виктория Абрамченко по итогам заседания межправительственной российско-монгольской комиссии по торгово-экономическому и научно-техническому сотрудничеству.И второе направление - традиционный монгольский кашемир. Эти товары могут собой заместить и ушедшие из РФ западные бренды, - сказала Абрамченко, отвечая на вопрос о перспективе возможного снижения тарифов и пошлин на ввозимую в РФ продукцию традиционного монгольского экспорта. Сегодня мы услышали такой запрос от монгольской стороны, что это препятствие, которое мешает исключить взаимный перекос в торговле. Договорились, что в течение 2023 года найдём решение данной проблемы, - сообщила Абрамченко. Она уточнила, что речь шла о двух группах товаров - в целом сельхозтоваров и в первую очередь - мясной группы, где очень важно обращать внимание на ветеринарный благополучный статус. Приведу простой пример: есть приграничный регион - Республика Бурятия, и там есть запрос на поставку племенного скота, племенных яков из Монголии и племенных овец. Но поскольку нужно убедиться, что нет никаких рисков в отношении ветеринарно опасных болезней, например, ящура, то мы не можем говорить, что такая договорённость уже случилась. Сначала надо убедиться в безопасности этой продукции, - заметила вице-премьер.",
+                "image": "https://cdnn21.img.ria.ru/images/07e6/06/11/1796084086_0:0:3386:2048_1440x900_80_1_1_95a9fbb53dafb1ad97aa028d047be644.jpg.webp?source-sid=rian_photo",
+                "category": "economy"
             },
             {
                 "id": "d33fbb71-ddac-4b3e-b04d-237704e826cd",
-                "daie": "06/12/2021",
-                "title": "Fusce consequat. Nulla nisl. Nunc nisl.",
-                "article": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
-                "image": "http://dummyimage.com/165x100.png/dddddd/000000",
-                "category": "King in New York, A"
+                "date": "06/12/2021",
+                "title": "Деми Мур рассталась с парнем, который на двенадцать лет моложе нее.",
+                "article": "Деми Мур рассталась с ресторатором Дэниелом Хаммом, пишет People со ссылкой на друга актрисы. Пара была вместе меньше года. О романе 60-летней Мур и 48-летнего Хамма стало известно в марте 2022 года. Звезда Привидения и Солдата Джейн выходила замуж несколько раз. Ее первый супруг — рок-музыкант Фредди Мур. В браке с ним она была с 1980 по 1985 годы. В 1987-м они поженились с Брюсом Уиллисом. Актеры прожили вместе 13 лет, у них трое дочерей. В 2005 году Мур вновь пошла под венец. На этот раз избранником звезды стал Эштон Кутчер. В 2013-м артисты развелись.",
+                "image": "https://cdnn21.img.ria.ru/images/07e6/0b/0f/1831544813_0:0:3000:1689_1440x900_80_0_1_2232e39058e10b3182ede7ab6c0ff5e1.jpg.webp?source-sid=afp",
+                "category": "culture"
             },
             {
                 "id": "be020e87-aea9-4a6f-a130-98e2af19e311",
-                "daie": "03/08/2022",
-                "title": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
-                "article": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
-                "image": "http://dummyimage.com/190x100.png/5fa2dd/ffffff",
-                "category": "Scooby-Doo! WrestleMania Mystery"
+                "date": "03/08/2022",
+                "title": "На фестивале авторского кино Зимний покажут фильм по книгам Замятина.",
+                "article": "На Первом российском фестивале авторского кино Зимний в Москве представят фильм Ивана Твердовского Наводнение, сообщила пресс-служба смотра. В основе сценария — два произведения Евгения Замятина: повести Наводнение и Север. Также в программе новая картина Алексея Федорченко Большие змеи Улли-Кале. В ней рассказывается о взаимоотношениях России и Кавказа в XIX веке. ",
+                "image": "https://cdnn21.img.ria.ru/images/07e5/04/02/1603978918_0:0:2987:2048_1440x900_80_1_1_db6f24c19284c2751e315422830d1522.jpg.webp?source-sid=rian_photo",
+                "category": "culture"
             },
             {
                 "id": "069e00cd-1b34-4c3d-8e30-370c70e20cfe",
-                "daie": "26/06/2022",
-                "title": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
-                "article": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
-                "image": "http://dummyimage.com/218x100.png/dddddd/000000",
-                "category": "Judge, The"
-            },
-            {
-                "id": "feebbd6a-41f7-4e8a-8457-7c533164f0fe",
-                "daie": "02/06/2022",
-                "title": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
-                "article": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
-                "image": "http://dummyimage.com/217x100.png/dddddd/000000",
-                "category": "Xtro 2: The Second Encounter"
-            },
-            {
-                "id": "863548a8-411a-4e6a-a84c-b3ee2948b7c1",
-                "daie": "04/08/2022",
-                "title": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
-                "article": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
-                "image": "http://dummyimage.com/234x100.png/cc0000/ffffff",
-                "category": "Forgive Me"
-            },
-            {
-                "id": "bbc9397b-4283-4c61-a67a-acf28334c517",
-                "daie": "07/06/2022",
-                "title": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
-                "article": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
-                "image": "http://dummyimage.com/172x100.png/dddddd/000000",
-                "category": "Kept Husbands"
-            },
-            {
-                "id": "04d905fb-9e66-4032-a199-7ce76041c0f6",
-                "daie": "28/03/2022",
-                "title": "Phasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
-                "article": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
-                "image": "http://dummyimage.com/183x100.png/ff4444/ffffff",
-                "category": "Winter Nomads"
-            },
-            {
-                "id": "0fa87f4c-68de-43c7-a2d1-f69b89fcd057",
-                "daie": "02/06/2022",
-                "title": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.",
-                "article": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
-                "image": "http://dummyimage.com/182x100.png/ff4444/ffffff",
-                "category": "Littlerock"
-            },
-            {
-                "id": "71c60a83-17cc-4195-8785-8e43148497d5",
-                "daie": "10/07/2022",
-                "title": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
-                "article": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
-                "image": "http://dummyimage.com/199x100.png/5fa2dd/ffffff",
-                "category": "Who's Camus Anyway? (Kamyu nante shiranai)"
-            },
-            {
-                "id": "584914ca-b899-425b-ac53-e5676919cdb3",
-                "daie": "16/09/2022",
-                "title": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.",
-                "article": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
-                "image": "http://dummyimage.com/178x100.png/cc0000/ffffff",
-                "category": "Gitarrmongot"
-            },
-            {
-                "id": "09071c88-23a4-4d85-b9a5-f9ec084fc5d2",
-                "daie": "10/04/2022",
-                "title": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
-                "article": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
-                "image": "http://dummyimage.com/196x100.png/dddddd/000000",
-                "category": "Rocky IV"
+                "date": "26/06/2022",
+                "title": "Знаменитая картина Мондриана продана за рекордную для художника сумму.",
+                "article": "Знаменитая абстрактная картина Пита Мондриана Композиция No. II продана на Sotheby's в Нью-Йорке за рекордные для художника 51 миллион долларов, сообщается на странице аукционного дома в соцсети.По данным CNN, созданное в 1930 году произведение было объявлено одной из самых значительных работ мастера, когда-либо появлявшихся на рынке коллекционеров. Возможность приобрести картину такого качества действительно случается раз в поколение, — говорит представитель Sotheby's Джулиан Доус. Он отметил, что полотна Мондриана редко появляются на аукционе, поскольку многие из них хранятся в самых престижных музеях по всему миру.",
+                "image": "https://cdnn21.img.ria.ru/images/07e6/0b/0f/1831574975_0:0:3072:2048_1440x900_80_0_1_062866cbf5e96de3dcc3da4b3d020f62.jpg.webp?source-sid=ap_photo",
+                "category": "culture"
             }
         ]
     }
