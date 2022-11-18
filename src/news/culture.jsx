@@ -1,22 +1,11 @@
+import { NewsItem } from "./newsItem";
 
 
-export function Culture() {
+export function Culture(props) {
     return (
-
+ 
         <div class="news">
-
-            <article class="news-item">
-                <a href="index.html" class="news-item__href">
-                    <span class="news-item__date">
-                        07 окт, 13:42
-                    </span>
-
-                    <h2 class="news-item__title">
-                        Культура
-                    </h2>
-                </a>
-            </article>
-
+            <NewsItem news={props.news} category={props.category} />
         </div>
     );
 }

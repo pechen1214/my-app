@@ -38,11 +38,11 @@ function App() {
         <Header />
         <Nav />
         <Routes>
-          <Route path='/' element={<AllNews news={news} />} />
-          <Route path='/sport' element={<Sport />} />
-          <Route path='/politics' element={<Politics />} />
-          <Route path='/economy' element={<Economy />} />
-          <Route path='/culture' element={<Culture />} />
+          <Route path='/' element={<AllNews news={news} category={""}/>} />
+          <Route path='/sport' element={<Sport news={news} category={"sport"} />} />
+          <Route path='/politics' element={<Politics news={news} category={"politics"}/>} />
+          <Route path='/economy' element={<Economy news={news} category={"economy"}/>} />
+          <Route path='/culture' element={<Culture news={news} category={"culture"}/>} />
         </Routes>
 
         <Footer />
