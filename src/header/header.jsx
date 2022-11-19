@@ -3,7 +3,7 @@ import Logo from './logo.png';
 import { Search } from './search/search';
 import { Weather } from './weather/weather';
 
-export function Header() {
+export function Header(props) {
     return (
         <div class="header">
             <div class="header__logo">
@@ -12,7 +12,7 @@ export function Header() {
                 </a>
             </div>
             <Weather />
-            <Exchange/>
+            <Exchange exchange={props.exchange}/>
             <Search/>
         </div>
     );
