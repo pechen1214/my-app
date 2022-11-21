@@ -5,14 +5,14 @@ import { Weather } from './weather/weather';
 
 export function Header(props) {
     return (
-        <div class="header">
-            <div class="header__logo">
+        <div className="header">
+            <div className="header__logo">
                 <a href="/">
-                    <img class="logo" src={Logo} alt="Логотип" />
+                    <img className="logo" src={Logo} alt="Логотип"/>
                 </a>
             </div>
-            <Weather />
-            <Exchange exchange={props.exchange}/>
+            <Weather/>
+            {props.exchange && <Exchange exchange={props.exchange}/>}
             <Search/>
         </div>
     );

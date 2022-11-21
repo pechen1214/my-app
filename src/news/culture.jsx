@@ -4,7 +4,7 @@ import { NewsItem } from "./newsItem";
 export function Culture(props) {
     return (
  
-        <div class="news">
+        <div className="news">
             <NewsItem news={props.news} category={props.category} />
         </div>
     );

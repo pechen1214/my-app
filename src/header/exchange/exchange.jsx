@@ -1,23 +1,22 @@
 export function Exchange({exchange}) {
-console.log(exchange)
-  return (
-<div class="header__exchange">
-<div class="exchange">
-  <table>
-    <tbody>
-      <tr>
-        <td>ЦБ USD</td>
-        <td>{}</td>
-        <td>{exchange.date}</td>
-      </tr>
-      <tr>
-        <td>ЦБ EUR</td>
-        <td>{'33'}</td>
-        <td>{exchange.date}</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-</div>)
-
+    return (
+        <div className="header__exchange">
+            <div className="exchange">
+                <table>
+                    <tbody>
+                    <tr>
+                        <td>ЦБ USD</td>
+                        <td>{exchange.usd}</td>
+                        <td>{exchange.date}</td>
+                    </tr>
+                    <tr>
+                        <td>ЦБ EUR</td>
+                        <td>{exchange.eur}</td>
+                        <td>{exchange.date}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    );
 }
