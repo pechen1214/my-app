@@ -1,10 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {
-  BrowserRouter,
-  BrowserRouter as Router,
-  Route,
-  Routes,
-} from 'react-router-dom';
+import { BrowserRouter, Route, Routes, } from 'react-router-dom';
 
 import './style/style.css';
 import { Header } from './header/header';
@@ -19,39 +14,37 @@ import { Politics } from './news/politics';
 import { GetNews } from './news/getNews';
 import { GetExchange } from './header/exchange/getExchange';
 
-
-
 function App() {
-  const [news, setNews] = useState([])
-  const [exchange,setExchange] = useState([])
+    const [news, setNews] = useState([]);
+    const [exchange, setExchange] = useState(null);
 
-  useEffect(() => {
-    console.log('Petux')
-    GetNews.getAllNews().then(
-      (news) => setNews(news))
-    GetExchange.getAllExchange().then(
-      (exchange)=> setExchange(exchange)
-    
-    )
-  }, []);
+    useEffect(() => {
+        GetNews.getAllNews().then(
+            (news) => setNews(news)
+        );
 
-  return (
-    <BrowserRouter>
-      <div class="all">
-        <Header exchange={exchange}/>
-        <Nav />
-        <Routes>
-          <Route path='/' element={<AllNews news={news} category={""} />} />
-          <Route path='/sport' element={<Sport news={news} category={"sport"} />} />
-          <Route path='/politics' element={<Politics news={news} category={"politics"} />} />
-          <Route path='/economy' element={<Economy news={news} category={"economy"} />} />
-          <Route path='/culture' element={<Culture news={news} category={"culture"} />} />
-        </Routes>
+        GetExchange.getAllExchange().then(
+            (exchange) => setExchange(exchange)
+        );
+    }, []);
 
-        <Footer />
-      </div>
-    </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <div className="all">
+                <Header exchange={exchange}/>
+                <Nav/>
+                <Routes>
+                    <Route path="/" element={<AllNews news={news} category={""}/>}/>
+                    <Route path="/sport" element={<Sport news={news} category={"sport"}/>}/>
+                    <Route path="/politics" element={<Politics news={news} category={"politics"}/>}/>
+                    <Route path="/economy" element={<Economy news={news} category={"economy"}/>}/>
+                    <Route path="/culture" element={<Culture news={news} category={"culture"}/>}/>
+                </Routes>
+
+                <Footer/>
+            </div>
+        </BrowserRouter>
+    );
 }
 
 export default App;

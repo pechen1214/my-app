@@ -1,6 +1,6 @@
 export function Footer() {
     return (
-        <div class="footer">
+        <div className="footer">
             Все права на материалы, находящиеся на сайте, охраняются в соответствии с законодательством РФ. 16+
         </div>
     );
