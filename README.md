@@ -1,5 +1,6 @@
 # News public
 ## Developer
+
 Kapustin A.
 
 > Новостной паблик в котором, по задумке разработчика, будут выводится новости с возможностью оставлять комментарии. 
@@ -7,5 +8,5 @@ Kapustin A.
 > Разработчик хочет одолеть этот проект на React. 
 > Да поможет ему Всевышний.
 
-## Для запуска проекта -   npm start
-## Для запуска JSON Server  -  json-server --watch DATA.json --port 4000
+### Для запуска проекта -   npm start
+### Для запуска JSON Server  -  json-server --watch DATA.json --port 4000
