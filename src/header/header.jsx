@@ -1,19 +1,20 @@
 import { Exchange } from './exchange/exchange';
 import Logo from './logo.png';
-import { Search } from './search/search';
+import {Search} from './search/search';
 import { Weather } from './weather/weather';
 
 export function Header(props) {
+
     return (
         <div className="header">
             <div className="header__logo">
                 <a href="/">
-                    <img className="logo" src={Logo} alt="Логотип"/>
+                    <img className="logo" src={Logo} alt="Логотип" />
                 </a>
             </div>
-            <Weather/>
-            {props.exchange && <Exchange exchange={props.exchange}/>}
-            <Search/>
+            <Weather />
+            {props.exchange && <Exchange exchange={props.exchange} />}
+            <Search onChange={props.onChange} />
         </div>
     );
 }

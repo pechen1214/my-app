@@ -4,9 +4,9 @@ export class GetExchange {
             (response) => response.json()
         ).then((exchange) => {
             return {
-                date: exchange.date,
-                usd: exchange.rates.USD,
-                eur: exchange.rates.EUR,
+                date: (exchange.date).substr(5),
+                usd: (1/exchange.rates.USD).toFixed(2),
+                eur: (1/exchange.rates.EUR).toFixed(2),
             };
         });
     }

@@ -13,7 +13,6 @@ import { Culture } from './news/culture';
 import { Politics } from './news/politics';
 import { GetNews } from './news/getNews';
 import { GetExchange } from './header/exchange/getExchange';
-
 function App() {
     const [news, setNews] = useState([]);
     const [exchange, setExchange] = useState(null);
@@ -28,20 +27,30 @@ function App() {
         );
     }, []);
 
+    const [search, setSearch] = useState('')
+    const searchf = (search) => {
+        setSearch(search)
+    }
+
+    const filterNews = news.filter(news => {
+        return news.title.toLowerCase().includes(search.toLowerCase()
+        )
+    })
+
     return (
         <BrowserRouter>
             <div className="all">
-                <Header exchange={exchange}/>
-                <Nav/>
+                <Header exchange={exchange} onChange={searchf} />
+                <Nav />
                 <Routes>
-                    <Route path="/" element={<AllNews news={news} category={""}/>}/>
-                    <Route path="/sport" element={<Sport news={news} category={"sport"}/>}/>
-                    <Route path="/politics" element={<Politics news={news} category={"politics"}/>}/>
-                    <Route path="/economy" element={<Economy news={news} category={"economy"}/>}/>
-                    <Route path="/culture" element={<Culture news={news} category={"culture"}/>}/>
+                    <Route path="/" element={<AllNews news={filterNews} category={""} />} />
+                    <Route path="/sport" element={<Sport news={filterNews} category={"sport"} />} />
+                    <Route path="/politics" element={<Politics news={filterNews} category={"politics"} />} />
+                    <Route path="/economy" element={<Economy news={filterNews} category={"economy"} />} />
+                    <Route path="/culture" element={<Culture news={filterNews} category={"culture"} />} />
                 </Routes>
 
-                <Footer/>
+                <Footer />
             </div>
         </BrowserRouter>
     );
