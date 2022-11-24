@@ -9,7 +9,7 @@ export const Search = ({ onChange }) => {
 
     return (
         <div className="header__search">
-            <form
+            <div
                 action=""
                 method="get"
                 className="search-form"
@@ -21,15 +21,7 @@ export const Search = ({ onChange }) => {
                     className="search-form__input"
                     onChange={searchNews}
                 />
-                <button
-                    type="submit"
-                    className="search-form__button"
-                >
-                    <i className="fa-solid fa-magnifying-glass">
-                    </i>
-
-                </button>
-            </form>
+            </div>
         </div>
     );
 }

@@ -12,7 +12,7 @@ export function Header(props) {
                     <img className="logo" src={Logo} alt="Логотип" />
                 </a>
             </div>
-            <Weather />
+            {props.weather && <Weather weather={props.weather} />}
             {props.exchange && <Exchange exchange={props.exchange} />}
             <Search onChange={props.onChange} />
         </div>

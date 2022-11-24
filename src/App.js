@@ -13,9 +13,11 @@ import { Culture } from './news/culture';
 import { Politics } from './news/politics';
 import { GetNews } from './news/getNews';
 import { GetExchange } from './header/exchange/getExchange';
+import { GetWeather } from './header/weather/getWeather';
 function App() {
     const [news, setNews] = useState([]);
     const [exchange, setExchange] = useState(null);
+    const [weather, setWeather] = useState(null);
 
     useEffect(() => {
         GetNews.getAllNews().then(
@@ -25,6 +27,11 @@ function App() {
         GetExchange.getAllExchange().then(
             (exchange) => setExchange(exchange)
         );
+
+        GetWeather.getAllWeather().then(
+            (weather) => setWeather(weather)
+        );
+
     }, []);
 
     const [search, setSearch] = useState('')
@@ -40,7 +47,7 @@ function App() {
     return (
         <BrowserRouter>
             <div className="all">
-                <Header exchange={exchange} onChange={searchf} />
+                <Header exchange={exchange} onChange={searchf} weather={weather} />
                 <Nav />
                 <Routes>
                     <Route path="/" element={<AllNews news={filterNews} category={""} />} />

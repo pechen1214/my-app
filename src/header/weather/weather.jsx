@@ -1,4 +1,8 @@
-export function Weather() {
+export function Weather({ weather }) {
+    let now = (((new Date(weather.date)).toString()).substring(0,3))+(((new Date(weather.date)).toString()).substring(7,10))
+    let nown = (((new Date(weather.daten)).toString()).substring(0,3))+(((new Date(weather.daten)).toString()).substring(7,10))
+    let nownn = (((new Date(weather.datenn)).toString()).substring(0,3))+(((new Date(weather.datenn)).toString()).substring(7,10))
+
     return (
         <div className="header__weather">
             <div className="weather-day">
@@ -6,8 +10,8 @@ export function Weather() {
                     <i className="fa-solid fa-cloud-sun-rain"></i>
                 </div>
                 <div>
-                    <div> Срд,12</div>
-                    <div> +25</div>
+                    <div> {now}</div>
+                    <div> {weather.temperature} </div>
                 </div>
             </div>
             <div className="weather-day">
@@ -15,8 +19,8 @@ export function Weather() {
                     <i className="fa-solid fa-cloud-showers-heavy"></i>
                 </div>
                 <div>
-                    <div> Чтв,13</div>
-                    <div> +10</div>
+                    <div> {nown}</div>
+                    <div> {weather.temperaturen}</div>
                 </div>
             </div>
             <div className="weather-day">
@@ -24,8 +28,8 @@ export function Weather() {
                     <i className="fa-solid fa-cloud-bolt"></i>
                 </div>
                 <div>
-                    <div> Птн,14</div>
-                    <div> -1</div>
+                    <div> {nownn}</div>
+                    <div> {weather.temperaturenn}</div>
                 </div>
             </div>
         </div>

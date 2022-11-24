@@ -17,7 +17,7 @@
   &__item {
     display: inline;
     border-bottom-width: 0px;
-    padding: 0px 4px 6px 4px;
+    padding: 0px 4px 7px 4px;
     @include mobile {
 
     }
@@ -27,7 +27,7 @@
     border-bottom-width: 0px;
     display: inline;
     background-color: var(--second-color);
-    padding: 0px 8px 6px 8px;
+    padding: 0px 8px 7px 8px;
     @include mobile {
       padding: 0px 4px 7px 4px;
     }
