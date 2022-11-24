@@ -244,5 +244,15 @@ body .all {
   display: flex;
   flex-direction: column;
 }
+body .modal {
+  height: 25px;
+  width: 25px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  opacity: 0.5;
+  color: #acaeb4;
+  font-size: 25px;
+}
 
 /*# sourceMappingURL=style.css.map */

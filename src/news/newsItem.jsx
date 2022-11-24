@@ -4,7 +4,7 @@ export function NewsItem({ news, category }) {
         news.map((d) => (category === "" ? (
 
             <article key={d.id} className="news-item">
-                <a href="index.html" className="news-item__href">
+                <a className="news-item__href">
                     <span className="news-item__date">
                         {d.date}
                     </span>
@@ -23,7 +23,7 @@ export function NewsItem({ news, category }) {
             </article>
         ) : (d.category === category ? (
             <article key={d.id} className="news-item">
-                <a href="index.html" className="news-item__href">
+                <a className="news-item__href">
                     <span className="news-item__date">
                         {d.date}
                     </span>

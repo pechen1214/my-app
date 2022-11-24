@@ -25,4 +25,15 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .modal{
+    height:25px;
+    width: 25px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    opacity: 0.5;
+    color: #acaeb4;
+    font-size: 25px;
+  
+  }
 }

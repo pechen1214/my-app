@@ -14,10 +14,13 @@ import { Politics } from './news/politics';
 import { GetNews } from './news/getNews';
 import { GetExchange } from './header/exchange/getExchange';
 import { GetWeather } from './header/weather/getWeather';
+import Modal from './modal';
 function App() {
     const [news, setNews] = useState([]);
     const [exchange, setExchange] = useState(null);
     const [weather, setWeather] = useState(null);
+
+    
 
     useEffect(() => {
         GetNews.getAllNews().then(
@@ -44,6 +47,15 @@ function App() {
         )
     })
 
+    const toptop=()=>{
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+          })
+    }
+
+
     return (
         <BrowserRouter>
             <div className="all">
@@ -56,8 +68,8 @@ function App() {
                     <Route path="/economy" element={<Economy news={filterNews} category={"economy"} />} />
                     <Route path="/culture" element={<Culture news={filterNews} category={"culture"} />} />
                 </Routes>
-
                 <Footer />
+                <Modal toptop={toptop}/>
             </div>
         </BrowserRouter>
     );
