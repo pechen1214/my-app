@@ -15,6 +15,7 @@ import { GetNews } from './news/getNews';
 import { GetExchange } from './header/exchange/getExchange';
 import { GetWeather } from './header/weather/getWeather';
 import Modal from './modal';
+import { Admin } from './admin/admin';
 function App() {
     const [news, setNews] = useState([]);
     const [exchange, setExchange] = useState(null);
@@ -60,13 +61,14 @@ function App() {
         <BrowserRouter>
             <div className="all">
                 <Header exchange={exchange} onChange={searchf} weather={weather} />
-                <Nav />
+                <Nav/>
                 <Routes>
                     <Route path="/" element={<AllNews news={filterNews} category={""} />} />
                     <Route path="/sport" element={<Sport news={filterNews} category={"sport"} />} />
                     <Route path="/politics" element={<Politics news={filterNews} category={"politics"} />} />
                     <Route path="/economy" element={<Economy news={filterNews} category={"economy"} />} />
                     <Route path="/culture" element={<Culture news={filterNews} category={"culture"} />} />
+                    <Route path="/admin" element={<Admin news={news} category={""} />} />
                 </Routes>
                 <Footer />
                 <Modal toptop={toptop}/>

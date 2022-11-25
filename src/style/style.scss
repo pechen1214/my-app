@@ -25,8 +25,9 @@ body {
     display: flex;
     flex-direction: column;
   }
-  .modal{
-    height:25px;
+
+  .modal {
+    height: 25px;
     width: 25px;
     position: fixed;
     top: 10px;
@@ -34,6 +35,30 @@ body {
     opacity: 0.5;
     color: #acaeb4;
     font-size: 25px;
-  
+
   }
+
+  .modalNews {
+    height: 100%;
+    width: 100%;
+    background-color: #acaeb4;
+    position: fixed;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    opacity: 0.95;
+    font-size: 15px;
+
+    &__item {
+      width: 95%;
+    }
+    &__itemArticle {
+    width: 95%;
+    height: 200px;
+  }
+  }
+
+
+
+  
 }

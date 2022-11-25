@@ -2,7 +2,7 @@ const Modal = ({toptop}) => {
 
     return (
         <div className="modal" onClick={()=>toptop()}>
-            <i class="fa-solid fa-circle-up"></i>
+            <i className="fa-solid fa-circle-up"></i>
         </div>
     )
 }
