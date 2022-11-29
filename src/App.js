@@ -6,15 +6,11 @@ import { Header } from './header/header';
 import { Nav } from './nav/nav';
 import { Footer } from './footer/footer';
 
-import { Sport } from './news/sport';
-import { Economy } from './news/economy';
 import { AllNews } from './news/allnews';
-import { Culture } from './news/culture';
-import { Politics } from './news/politics';
 import { GetNews } from './news/getNews';
 import { GetExchange } from './header/exchange/getExchange';
 import { GetWeather } from './header/weather/getWeather';
-import Modal from './modal';
+import ModalMoveUp from './modalmoveUp';
 import { Admin } from './admin/admin';
 function App() {
     const [news, setNews] = useState([]);
@@ -39,7 +35,7 @@ function App() {
     }, []);
 
     const [search, setSearch] = useState('')
-    const searchf = (search) => {
+    const searchNews = (search) => {
         setSearch(search)
     }
 
@@ -48,7 +44,7 @@ function App() {
         )
     })
 
-    const toptop=()=>{
+    const moveUp=()=>{
         window.scrollTo({
             top: 0,
             left: 0,
@@ -60,18 +56,18 @@ function App() {
     return (
         <BrowserRouter>
             <div className="all">
-                <Header exchange={exchange} onChange={searchf} weather={weather} />
+                <Header exchange={exchange} onChange={searchNews} weather={weather} />
                 <Nav/>
                 <Routes>
                     <Route path="/" element={<AllNews news={filterNews} category={""} />} />
-                    <Route path="/sport" element={<Sport news={filterNews} category={"sport"} />} />
-                    <Route path="/politics" element={<Politics news={filterNews} category={"politics"} />} />
-                    <Route path="/economy" element={<Economy news={filterNews} category={"economy"} />} />
-                    <Route path="/culture" element={<Culture news={filterNews} category={"culture"} />} />
+                    <Route path="/sport" element={<AllNews news={filterNews} category={"sport"} />} />
+                    <Route path="/politics" element={<AllNews news={filterNews} category={"politics"} />} />
+                    <Route path="/economy" element={<AllNews news={filterNews} category={"economy"} />} />
+                    <Route path="/culture" element={<AllNews news={filterNews} category={"culture"} />} />
                     <Route path="/admin" element={<Admin news={news} category={""} />} />
                 </Routes>
                 <Footer />
-                <Modal toptop={toptop}/>
+                <ModalMoveUp moveUp={moveUp}/>
             </div>
         </BrowserRouter>
     );
