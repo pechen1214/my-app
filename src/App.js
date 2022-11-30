@@ -12,6 +12,7 @@ import { GetExchange } from './header/exchange/getExchange';
 import { GetWeather } from './header/weather/getWeather';
 import ModalMoveUp from './modalmoveUp';
 import { Admin } from './admin/admin';
+import { NewsAllItem } from './news/newsallItem';
 function App() {
     const [news, setNews] = useState([]);
     const [exchange, setExchange] = useState(null);
@@ -59,12 +60,12 @@ function App() {
                 <Header exchange={exchange} onChange={searchNews} weather={weather} />
                 <Nav/>
                 <Routes>
-                    <Route path="/" element={<AllNews news={filterNews} category={""} />} />
+                    <Route path="/" element={<NewsAllItem news={filterNews} />} />
                     <Route path="/sport" element={<AllNews news={filterNews} category={"sport"} />} />
                     <Route path="/politics" element={<AllNews news={filterNews} category={"politics"} />} />
                     <Route path="/economy" element={<AllNews news={filterNews} category={"economy"} />} />
                     <Route path="/culture" element={<AllNews news={filterNews} category={"culture"} />} />
-                    <Route path="/admin" element={<Admin news={news} category={""} />} />
+                    <Route path="/admin" element={<Admin news={news} />} />
                 </Routes>
                 <Footer />
                 <ModalMoveUp moveUp={moveUp}/>
