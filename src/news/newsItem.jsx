@@ -1,7 +1,17 @@
 
 export function NewsItem({ news, category }) {
     return (
-        news.map((d) => (category === "" ? (
+        (news.length===0) ?(
+            <article className="news-item">
+                <a className="news-item__href">
+                    <h2 className="news-item__title">
+                        По вашему запросу ничего не найдено.
+                    </h2>
+                </a>
+            </article>
+        ):(
+        news.map((d) =>( 
+              (category === "" ? (
 
             <article key={d.id} className="news-item">
                 <a className="news-item__href">
@@ -39,7 +49,8 @@ export function NewsItem({ news, category }) {
                         {d.article}
                     </p>
                 </a>
-            </article>) : (console.log('')))
-        )
+            </article>) : (<div></div>))
         ))
+        ))
+    )
 }
