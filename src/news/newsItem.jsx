@@ -1,5 +1,6 @@
 
 export function NewsItem({ news, category }) {
+
     return (
         news.map((d) =>((d.category === category ? (
             <article key={d.id} className="news-item">
@@ -20,8 +21,8 @@ export function NewsItem({ news, category }) {
                     </p>
                 </a>
             </article>
-        ) : (<div key={d.id}></div>)
+        ) : (<div key={d.id}></div>))
         ))
-        )
+        
     )
 }

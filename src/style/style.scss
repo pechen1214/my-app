@@ -5,6 +5,7 @@
 @import 'nav';
 @import 'news';
 @import 'footer';
+@import 'admin_panel';
 
 
 
@@ -21,7 +22,7 @@ body {
     background-color: var(--primary-color);
     box-sizing: border-box;
     padding: 4px;
-    min-height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
   }
