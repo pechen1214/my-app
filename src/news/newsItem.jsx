@@ -1,7 +1,7 @@
 export function NewsItem({ newsItem }) {
     return (
         <article key={newsItem.id} className="news-item">
-            <a className="news-item__href">
+            <div className="news-item__href">
                     <span className="news-item__date">
                         {newsItem.date}
                     </span>
@@ -16,7 +16,7 @@ export function NewsItem({ newsItem }) {
                 <p className="news-item__description">
                     {newsItem.article}
                 </p>
-            </a>
+            </div>
         </article>
     )
 }

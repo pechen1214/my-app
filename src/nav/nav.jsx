@@ -10,11 +10,11 @@ export function Nav() {
                 <li className="nav__item"><Link className="menu-button" to="/sport">Спорт</Link></li>
                 <li className="nav__item"><Link className="menu-button" to="/economy">Экономика</Link></li>
                 <li className="nav__item"><Link className="menu-button" to="/culture">Культура</Link></li>
-                
+
             </ul>
-            
+
         </div>
-        
-  
+
+
     );
 }

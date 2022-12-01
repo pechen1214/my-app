@@ -1,6 +1,6 @@
 import { Exchange } from './exchange/exchange';
 import Logo from './logo.png';
-import {Search} from './search/search';
+import { Search } from './search/search';
 import { Weather } from './weather/weather';
 
 export function Header(props) {

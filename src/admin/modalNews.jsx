@@ -32,22 +32,22 @@ const ModalNews = ({ enterNews }) => {
     return (
         <div className="modalNews">
             <div>
-                <input className="modalNews__item" type="text" value={id} onChange={setId} placeholder='Уникальный id'/>
+                <input className="modalNews__item" type="text" value={id} onChange={setId} placeholder='Уникальный id' />
             </div>
             <div>
                 <input className="modalNews__item" type="text" value={date} onChange={setDate} placeholder='Дата' />
             </div>
             <div>
-                <input className="modalNews__item" type="text" value={title} onChange={setTitle} placeholder='Заголовок'/>
+                <input className="modalNews__item" type="text" value={title} onChange={setTitle} placeholder='Заголовок' />
             </div>
             <div>
-                <textarea className="modalNews__itemArticle" value={article} onChange={setArticle}placeholder='Текст статьи' />
+                <textarea className="modalNews__itemArticle" value={article} onChange={setArticle} placeholder='Текст статьи' />
             </div>
             <div>
-                <input className="modalNews__item" type="text" value={image} onChange={setImage} placeholder='Ссылка на изображение'/>
+                <input className="modalNews__item" type="text" value={image} onChange={setImage} placeholder='Ссылка на изображение' />
             </div>
             <div>
-                <input className="modalNews__item" type="text" value={category} onChange={setCategory} placeholder='Категория(politics, culture, sport, economy)'/>
+                <input className="modalNews__item" type="text" value={category} onChange={setCategory} placeholder='Категория(politics, culture, sport, economy)' />
             </div>
 
             <div>

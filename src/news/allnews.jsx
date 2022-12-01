@@ -1,10 +1,10 @@
 import { NewsItem } from "./newsItem";
+import { NoData } from "./noData";
 
-export function AllNews({news, category}) {
+export function AllNews({ news, category }) {
     const filteredNews = category
-        ? news.filter((d) => d.category === category)
+        ? news.filter((newsUnit) => newsUnit.category === category)
         : news;
-
     return (
         <div className="news">
             {
@@ -13,16 +13,7 @@ export function AllNews({news, category}) {
                 ))
             }
 
-            {filteredNews.length === 0 && (
-                // это надо вынести будет в отдельный компонент NoData
-                <article  className="news-item">
-                    <a className="news-item__href" >
-                        <h2 className="news-item__title">
-                            По вашему запросу ничего не найдено.
-                        </h2>
-                    </a>
-                </article>
-            )}
+            {filteredNews.length === 0 && (<NoData />)}
         </div>
     );
 }

@@ -12,13 +12,12 @@ import { GetExchange } from './header/exchange/getExchange';
 import { GetWeather } from './header/weather/getWeather';
 import ModalMoveUp from './modalmoveUp';
 import { Admin } from './admin/admin';
-import { NewsAllItem } from './news/newsallItem';
 function App() {
     const [news, setNews] = useState([]);
     const [exchange, setExchange] = useState(null);
     const [weather, setWeather] = useState(null);
 
-    
+
 
     useEffect(() => {
         GetNews.getAllNews().then(
@@ -45,12 +44,12 @@ function App() {
         )
     })
 
-    const moveUp=()=>{
+    const moveUp = () => {
         window.scrollTo({
             top: 0,
             left: 0,
             behavior: 'smooth'
-          })
+        })
     }
 
 
@@ -58,9 +57,9 @@ function App() {
         <BrowserRouter>
             <div className="all">
                 <Header exchange={exchange} onChange={searchNews} weather={weather} />
-                <Nav/>
+                <Nav />
                 <Routes>
-                    <Route path="/" element={<NewsAllItem news={filterNews} />} />
+                    <Route path="/" element={<AllNews news={filterNews} category={""} />} />
                     <Route path="/sport" element={<AllNews news={filterNews} category={"sport"} />} />
                     <Route path="/politics" element={<AllNews news={filterNews} category={"politics"} />} />
                     <Route path="/economy" element={<AllNews news={filterNews} category={"economy"} />} />
@@ -68,7 +67,7 @@ function App() {
                     <Route path="/admin" element={<Admin news={news} />} />
                 </Routes>
                 <Footer />
-                <ModalMoveUp moveUp={moveUp}/>
+                <ModalMoveUp moveUp={moveUp} />
             </div>
         </BrowserRouter>
     );
