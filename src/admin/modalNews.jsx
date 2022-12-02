@@ -1,7 +1,10 @@
 import { useState } from "react";
 import { GetNews } from '../news/getNews';
 
+// логику модалки стоит вынести в отдельный компонент, который не будет привязан к определенной странице/сущности(как у тебя с news). Сама логика модалки одинакова, отличается только её контент
+// Вот тут есть пара хороших примеров  https://www.youtube.com/watch?v=eS0GL73tkmw
 const ModalNews = ({ enterNews }) => {
+    // Неправильно, погугли как работать с формами в реакте
     const oldID = enterNews.id
     const [id, setIdd] = useState(enterNews.id)
     const setId = (id) => {
@@ -31,6 +34,7 @@ const ModalNews = ({ enterNews }) => {
     const newsID = id
     return (
         <div className="modalNews">
+            {/*Поля стоит подписывать, иначе непонятно за что отвечают каждый инпут*/}
             <div>
                 <input className="modalNews__item" type="text" value={id} onChange={setId} placeholder='Уникальный id' />
             </div>

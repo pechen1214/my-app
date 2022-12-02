@@ -9,6 +9,7 @@ export const Search = ({ onChange }) => {
 
     return (
         <div className="header__search">
+            {/*Div?*/}
             <div
                 action=""
                 method="get"
