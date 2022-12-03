@@ -2,6 +2,7 @@ export function Exchange({ exchange }) {
     return (
         <div className="header__exchange">
             <div className="exchange">
+                {/*Это верстается без таблиц*/}
                 <table>
                     <tbody>
                         <tr>

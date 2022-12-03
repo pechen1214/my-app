@@ -1,3 +1,4 @@
+/*Вынеси в файлы*/
 .all {
   display: grid;
   grid-template-columns: 1000px;
