@@ -1,0 +1,19 @@
+  .modalNews {
+    height: 100%;
+    width: 100%;
+    background-color: #acaeb4;
+    position: fixed;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    opacity: 0.95;
+    font-size: 15px;
+
+    &__item {
+      width: 95%;
+    }
+    &__itemArticle {
+    width: 95%;
+    height: 200px;
+  }
+  }

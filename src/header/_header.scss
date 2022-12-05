@@ -1,12 +1,4 @@
-@import 'logo';
-@import 'weather';
-@import 'exchange';
-@import 'search';
-// Зачем эти импорты?
-
-
-@import 'media_mixin';
-
+@import '../style/media_mixin';
 
 .header {
   color: var(--second-color);

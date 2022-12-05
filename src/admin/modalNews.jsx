@@ -36,22 +36,22 @@ const ModalNews = ({ enterNews }) => {
         <div className="modalNews">
             {/*Поля стоит подписывать, иначе непонятно за что отвечают каждый инпут*/}
             <div>
-                <input className="modalNews__item" type="text" value={id} onChange={setId} placeholder='Уникальный id' />
+                <input name="id" className="modalNews__item" type="text" value={id} onChange={setId} placeholder='Уникальный id' />
             </div>
             <div>
-                <input className="modalNews__item" type="text" value={date} onChange={setDate} placeholder='Дата' />
+                <input name="date" className="modalNews__item" type="text" value={date} onChange={setDate} placeholder='Дата' />
             </div>
             <div>
-                <input className="modalNews__item" type="text" value={title} onChange={setTitle} placeholder='Заголовок' />
+                <input name="title" className="modalNews__item" type="text" value={title} onChange={setTitle} placeholder='Заголовок' />
             </div>
             <div>
-                <textarea className="modalNews__itemArticle" value={article} onChange={setArticle} placeholder='Текст статьи' />
+                <textarea name="article" className="modalNews__itemArticle" value={article} onChange={setArticle} placeholder='Текст статьи' />
             </div>
             <div>
-                <input className="modalNews__item" type="text" value={image} onChange={setImage} placeholder='Ссылка на изображение' />
+                <input name="image" className="modalNews__item" type="text" value={image} onChange={setImage} placeholder='Ссылка на изображение' />
             </div>
             <div>
-                <input className="modalNews__item" type="text" value={category} onChange={setCategory} placeholder='Категория(politics, culture, sport, economy)' />
+                <input name="category" className="modalNews__item" type="text" value={category} onChange={setCategory} placeholder='Категория(politics, culture, sport, economy)' />
             </div>
 
             <div>

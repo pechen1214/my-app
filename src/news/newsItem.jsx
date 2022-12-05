@@ -14,7 +14,7 @@ export function NewsItem({ newsItem }) {
                              alt="Фото: Unsplash" />
                     </span>
                 <p className="news-item__description">
-                    {newsItem.article}
+                    {(newsItem.article).slice(0,240)+"..."}
                 </p>
             </div>
         </article>

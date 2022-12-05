@@ -1,26 +1,21 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Route, Routes, } from 'react-router-dom';
-// не нужен перенос строки
 import './style/style.css';
 import { Header } from './header/header';
 import { Nav } from './nav/nav';
 import { Footer } from './footer/footer';
-// не нужен перенос строки
 import { AllNews } from './news/allnews';
 import { GetNews } from './news/getNews';
 import { GetExchange } from './header/exchange/getExchange';
 import { GetWeather } from './header/weather/getWeather';
 import ModalMoveUp from './modalmoveUp';
 import { Admin } from './admin/admin';
-
 // Вопрос форматирования поднимался многократно. Тут проблема с форматированием. Надо поправить по всему проекту, где встретишь подобные проблемы
 function App() {
     const [news, setNews] = useState([]);
     // лучше назвать exchangeRates. exchange - глагол, а глаголы как правило для функций
     const [exchange, setExchange] = useState(null);
     const [weather, setWeather] = useState(null);
-    // Всегда используем 1 перенос строки
-
 
     useEffect(() => {
         GetNews.getAllNews().then(
@@ -34,7 +29,6 @@ function App() {
         GetWeather.getAllWeather().then(
             (weather) => setWeather(weather)
         );
-
     }, []);
 
     // В данном случае это всё должно производиться на беке. Вообще, в app компоненте должно быть минимум логики, вся логика должна выноситься в соответствующие структурные единицы, компоненты там и тп
@@ -43,9 +37,8 @@ function App() {
         setSearch(search)
     }
 
-    // лучше назвать переменную в колбеке newsItem. Переменная с названием news у тебя есть, будет путаница
-    const filterNews = news.filter(news => {
-        return news.title.toLowerCase().includes(search.toLowerCase()
+    const filterNews = news.filter(newsItem => {
+        return newsItem.title.toLowerCase().includes(search.toLowerCase()
         )
     })
 
@@ -56,7 +49,6 @@ function App() {
             behavior: 'smooth'
         })
     }
-
 
     return (
         <BrowserRouter>

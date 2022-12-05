@@ -6,53 +6,6 @@
   --second-color: #ffffff;
 }
 
-.logo {
-  width: 200px;
-}
-@media (max-width: 890px) {
-  .logo {
-    width: 80px;
-  }
-}
-
-.weather-day {
-  flex-grow: 1;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-.weather-day__icon {
-  font-size: 25px;
-}
-@media (max-width: 890px) {
-  .weather-day__icon {
-    font-size: 13px;
-  }
-}
-
-.exchange {
-  align-items: center;
-  justify-content: center;
-  flex-grow: 1;
-  display: flex;
-}
-
-.search-form {
-  display: flex;
-  gap: 4px;
-  width: 100%;
-}
-.search-form__input {
-  flex: 1 1 auto;
-}
-.search-form__button {
-  padding: 0;
-  border: none;
-  color: inherit;
-  background-color: transparent;
-  cursor: pointer;
-}
-
 .header {
   color: var(--second-color);
   font-size: 14px;
@@ -250,6 +203,72 @@
   color: var(--primary-color);
 }
 
+.modalNews {
+  height: 100%;
+  width: 100%;
+  background-color: #acaeb4;
+  position: fixed;
+  padding: 20px;
+  top: 0;
+  left: 0;
+  opacity: 0.95;
+  font-size: 15px;
+}
+.modalNews__item {
+  width: 95%;
+}
+.modalNews__itemArticle {
+  width: 95%;
+  height: 200px;
+}
+
+.logo {
+  width: 200px;
+}
+@media (max-width: 890px) {
+  .logo {
+    width: 80px;
+  }
+}
+
+.weather-day {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.weather-day__icon {
+  font-size: 25px;
+}
+@media (max-width: 890px) {
+  .weather-day__icon {
+    font-size: 13px;
+  }
+}
+
+.exchange {
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  display: flex;
+}
+
+.search-form {
+  display: flex;
+  gap: 4px;
+  width: 100%;
+}
+.search-form__input {
+  flex: 1 1 auto;
+}
+.search-form__button {
+  padding: 0;
+  border: none;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 body {
   font-family: var(--font-description);
   height: 100%;
@@ -274,24 +293,6 @@ body .modal {
   opacity: 0.5;
   color: #acaeb4;
   font-size: 25px;
-}
-body .modalNews {
-  height: 100%;
-  width: 100%;
-  background-color: #acaeb4;
-  position: fixed;
-  padding: 20px;
-  top: 0;
-  left: 0;
-  opacity: 0.95;
-  font-size: 15px;
-}
-body .modalNews__item {
-  width: 95%;
-}
-body .modalNews__itemArticle {
-  width: 95%;
-  height: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */

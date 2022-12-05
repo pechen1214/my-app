@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Jost&family=Play&display=swap');
 @import 'variables';
-@import 'header';
-@import 'search';
-@import 'nav';
-@import 'news';
-@import 'footer';
-@import 'admin_panel';
+@import '../header/header';
+@import '../header/search/search';
+@import '../nav/nav';
+@import '../news/news';
+@import '../footer/footer';
+@import '../admin/admin_panel';
+@import '../admin/modal_news';
+@import 'logo';
+@import '../header/weather/weather';
+@import '../header/exchange/exchange';
+@import '../header/search/search';
 
 
 
@@ -38,29 +43,5 @@ body {
     color: #acaeb4;
     font-size: 25px;
 
-  }
-
-  .modalNews {
-    height: 100%;
-    width: 100%;
-    background-color: #acaeb4;
-    position: fixed;
-    padding: 20px;
-    top: 0;
-    left: 0;
-    opacity: 0.95;
-    font-size: 15px;
-
-    &__item {
-      width: 95%;
-    }
-    &__itemArticle {
-    width: 95%;
-    height: 200px;
-  }
-  }
-
-
-
-  
+  } 
 }
