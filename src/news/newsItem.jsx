@@ -5,7 +5,6 @@ export function NewsItem({ newsItem }) {
                     <span className="news-item__date">
                         {newsItem.date}
                     </span>
-
                 <h2 className="news-item__title">
                     {newsItem.title}
                 </h2>
@@ -14,7 +13,7 @@ export function NewsItem({ newsItem }) {
                              alt="Фото: Unsplash" />
                     </span>
                 <p className="news-item__description">
-                    {(newsItem.article).slice(0,240)+"..."}
+                    {(newsItem.article).slice(0,200)+"..."}
                 </p>
             </div>
         </article>
