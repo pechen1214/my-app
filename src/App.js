@@ -17,8 +17,9 @@ function App() {
     const [exchange, setExchange] = useState(null);
     const [weather, setWeather] = useState(null);
 
+
     useEffect(() => {
-        GetNews.getAllNews('politics').then(
+        GetNews.getAllNews('sport').then(
             (news) => setNews(news)
         );
 
@@ -31,16 +32,19 @@ function App() {
         );
     }, []);
 
-    // В данном случае это всё должно производиться на беке. Вообще, в app компоненте должно быть минимум логики, вся логика должна выноситься в соответствующие структурные единицы, компоненты там и тп
-  //  const [search, setSearch] = useState('')
-  //  const searchNews = (search) => {
-  //      setSearch(search)
-  //  }
+    
 
-  //  const filterNews = news.filter(newsItem => {
-  //      return newsItem.title.toLowerCase().includes(search.toLowerCase()
-  //      )
-  //  })
+
+    // В данном случае это всё должно производиться на беке. Вообще, в app компоненте должно быть минимум логики, вся логика должна выноситься в соответствующие структурные единицы, компоненты там и тп
+    //  const [search, setSearch] = useState('')
+    //  const searchNews = (search) => {
+    //      setSearch(search)
+    //  }
+
+    //  const filterNews = news.filter(newsItem => {
+    //      return newsItem.title.toLowerCase().includes(search.toLowerCase()
+    //      )
+    //  })
 
     const moveUp = () => {
         window.scrollTo({
@@ -54,8 +58,7 @@ function App() {
         // <BrowserRouter>
         <div className="all">
             <Header exchange={exchange} weather={weather} />
-            <Nav />
-            {console.log(news)}
+            <Nav/>
             <AllNews news={news} />
 
 

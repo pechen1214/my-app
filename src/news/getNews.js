@@ -1,9 +1,9 @@
 export class GetNews {
 
     static getAllNews(category) {
-        return fetch('http://localhost:4000/data').then(
+        return fetch('http://localhost:4000/'+category).then(
             (response) => response.json()
-            ).then((news) => {return(news.culture)
+            ).then((news) => {return(news)
             });
     }
 
