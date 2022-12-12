@@ -1,19 +1,18 @@
-export function Exchange({ exchange }) {
+export function ExchangeRates({ exchangeRates }) {
     return (
         <div className="header__exchange">
             <div className="exchange">
-                {/*Это верстается без таблиц*/}
                 <table>
                     <tbody>
                         <tr>
                             <td>ЦБ USD</td>
-                            <td>{exchange.usd}</td>
-                            <td>{exchange.date}</td>
+                            <td>{exchangeRates.usd}</td>
+                            <td>{exchangeRates.date}</td>
                         </tr>
                         <tr>
                             <td>ЦБ EUR</td>
-                            <td>{exchange.eur}</td>
-                            <td>{exchange.date}</td>
+                            <td>{exchangeRates.eur}</td>
+                            <td>{exchangeRates.date}</td>
                         </tr>
                     </tbody>
                 </table>

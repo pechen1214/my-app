@@ -1,15 +1,18 @@
 import { NewsItem } from "./newsItem";
 import { NoData } from "./noData";
 
-export function AllNews({ news }) {
+export function AllNews({ news, category }) {
+    const filteredNews = category
+        ? news.filter((newsUnit) => newsUnit.category === category)
+        : news;
     return (
         <div className="news">
             {
-                news.map ((newsItem) => (
-                    newsItem && <NewsItem key={newsItem.id} newsItem={newsItem}/>
+                filteredNews.map((newsItem) => (
+                    <NewsItem key={newsItem.id} newsItem={newsItem}></NewsItem>
                 ))
             }
-            {news.length === 0 && (<NoData />)}
+            {filteredNews.length === 0 && (<NoData />)}
         </div>
     );
-} 
+}

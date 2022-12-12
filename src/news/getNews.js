@@ -1,10 +1,9 @@
 export class GetNews {
 
-    static getAllNews(category) {
-        return fetch('http://localhost:4000/'+category).then(
+    static getAllNews() {
+        return fetch('http://localhost:4000/data').then(
             (response) => response.json()
-            ).then((news) => {return(news)
-            });
+        )
     }
 
     static editNews(newNews, oldID) {

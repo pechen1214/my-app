@@ -6,10 +6,6 @@ export function Admin({ news }) {
     // enterNews плохое название для переменной. Оно больше подходит для функции (enterNews - ввести новость).
     // Очень советую почитать "чистый код" там подробно описано то правильно называть переменные
     const [enterNews, setEnterNews] = useState('')
-
-
-
-
     return (
         <div className="news">
             <div className="adminPanel">

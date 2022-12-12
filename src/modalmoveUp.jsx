@@ -1,7 +1,13 @@
-const ModalmoveUp = ({moveUp}) => {
-
+const ModalmoveUp = () => {
+    const moveUp = () => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+        })
+    }
     return (
-        <div className="modal" onClick={()=>moveUp()}>
+        <div className="modal" onClick={() => moveUp()}>
             <i className="fa-solid fa-circle-up"></i>
         </div>
     )

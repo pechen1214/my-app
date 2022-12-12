@@ -9,11 +9,8 @@
 @import '../admin/modal_news';
 @import 'logo';
 @import '../header/weather/weather';
-@import '../header/exchange/exchange';
+@import '../header/exchangeRates/exchange';
 @import '../header/search/search';
-
-
-
 
 
 body {
@@ -43,5 +40,5 @@ body {
     color: #acaeb4;
     font-size: 25px;
 
-  } 
+  }
 }

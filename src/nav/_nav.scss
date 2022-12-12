@@ -18,9 +18,8 @@
     display: inline;
     border-bottom-width: 0px;
     padding: 0px 4px 7px 4px;
-    @include mobile {
 
-    }
+    @include mobile {}
   }
 
   &__item:active {
@@ -28,6 +27,7 @@
     display: inline;
     background-color: var(--second-color);
     padding: 0px 8px 7px 8px;
+
     @include mobile {
       padding: 0px 4px 7px 4px;
     }

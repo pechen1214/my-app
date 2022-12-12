@@ -1,10 +1,9 @@
-import { Exchange } from './exchange/exchange';
+import { ExchangeRates } from './exchangeRates/exchangeRates';
 import Logo from './logo.png';
 import { Search } from './search/search';
 import { Weather } from './weather/weather';
 
 export function Header(props) {
-
     return (
         <div className="header">
             <div className="header__logo">
@@ -13,7 +12,7 @@ export function Header(props) {
                 </a>
             </div>
             {props.weather && <Weather weather={props.weather} />}
-            {props.exchange && <Exchange exchange={props.exchange} />}
+            {props.exchangeRates && <ExchangeRates exchangeRates={props.exchangeRates} />}
             <Search onChange={props.onChange} />
         </div>
     );
