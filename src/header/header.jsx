@@ -1,5 +1,5 @@
 import { ExchangeRates } from './exchangeRates/exchangeRates';
-import Logo from './logo.png';
+import Logo from '../logo.png';
 import { Search } from './search/search';
 import { Weather } from './weather/weather';
 

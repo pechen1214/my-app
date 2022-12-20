@@ -1,3 +1,5 @@
+import { Link} from "react-router-dom";
+
 export function NewsItem({ newsItem }) {
     return (
         <article key={newsItem.id} className="news-item">
@@ -14,6 +16,7 @@ export function NewsItem({ newsItem }) {
                 </span>
                 <p className="news-item__description">
                     {(newsItem.article).substring(0, 250)}
+                    <Link to={newsItem.id}>...</Link>
                 </p>
             </div>
         </article>

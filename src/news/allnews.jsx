@@ -9,7 +9,7 @@ export function AllNews({ news, category }) {
         <div className="news">
             {
                 filteredNews.map((newsItem) => (
-                    <NewsItem key={newsItem.id} newsItem={newsItem}></NewsItem>
+                    <NewsItem key={newsItem.id} newsItem={newsItem} />
                 ))
             }
             {filteredNews.length === 0 && (<NoData />)}

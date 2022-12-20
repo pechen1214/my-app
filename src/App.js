@@ -8,7 +8,9 @@ import { GetNews } from './news/getNews';
 import { GetExchangeRates } from './header/exchangeRates/getExchangeRates';
 import { GetWeather } from './header/weather/getWeather';
 import ModalMoveUp from './modalmoveUp';
-//import { Admin } from './admin/admin';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Admin } from './admin/admin';
+import { SingleNews } from './news/singleNews';
 
 function App() {
     const [news, setNews] = useState([]);
@@ -28,7 +30,7 @@ function App() {
 
         GetWeather.getAllWeather().then(
             (weather) => setWeather(weather)
-        );
+        )
     }, []);
 
     const filterNews = news.filter(newsItem => {
@@ -36,13 +38,19 @@ function App() {
     })
 
     return (
-        <div className="all">
-            <Header exchangeRates={exchangeRates} onChange={setSearch} news={news} weather={weather} />
-            <Nav setCategory={setCategory} />
-            <AllNews news={filterNews} category={category} />
-            <Footer />
-            <ModalMoveUp />
-        </div>
+        <BrowserRouter>
+            <div className="all">
+                <Header exchangeRates={exchangeRates} onChange={setSearch} news={news} weather={weather} />
+                <Nav setCategory={setCategory} />
+                <Routes>
+                    <Route path="/" element={<AllNews news={filterNews} category={category} />}/>
+                    <Route path="/admin" element={<Admin news={news} />} />
+                    <Route path="/:id" element={<SingleNews/>} />
+                </Routes>
+                <Footer />
+                <ModalMoveUp />
+            </div>
+        </BrowserRouter>
     );
 }
 export default App;

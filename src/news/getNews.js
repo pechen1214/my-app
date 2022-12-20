@@ -5,6 +5,11 @@ export class GetNews {
             (response) => response.json()
         )
     }
+    static getSingleNews(id) {
+        return fetch('http://localhost:4000/data/'+id).then(
+            (response) => response.json()
+        )
+    }
 
     static editNews(newNews, oldID) {
         return (
