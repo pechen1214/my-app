@@ -1,0 +1,11 @@
+.all {
+    max-width: 890px;
+    min-width: 380px;
+    margin: auto;
+    background-color: var(--primary-color);
+    box-sizing: border-box;
+    padding: 4px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }

@@ -11,34 +11,11 @@
 @import '../header/weather/weather';
 @import '../header/exchangeRates/exchange';
 @import '../header/search/search';
+@import '../modalMoveUp/modalmoveUp';
+@import 'all';
 
 
 body {
   font-family: var(--font-description);
   height: 100%;
-
-  // Эти классы должны находится в соответствующих файлах а не здесь
-  .all {
-    max-width: 890px;
-    min-width: 380px;
-    margin: auto;
-    background-color: var(--primary-color);
-    box-sizing: border-box;
-    padding: 4px;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .modal {
-    height: 25px;
-    width: 25px;
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    opacity: 0.5;
-    color: #acaeb4;
-    font-size: 25px;
-
-  }
 }
