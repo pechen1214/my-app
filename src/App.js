@@ -11,6 +11,7 @@ import ModalMoveUp from "./modalMoveUp/modalmoveUp";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Admin } from "./admin/admin";
 import { SingleNews } from "./news/singleNews";
+import { Redux } from "./redux/redux";
 
 function App() {
   const [news, setNews] = useState([]);
@@ -54,6 +55,7 @@ function App() {
             element={<AllNews news={filterNews} category={category} />}
           />
           <Route path="/admin" element={<Admin news={news} />} />
+          <Route path="/redux" element={<Redux/>} />
           <Route path="/:id" element={<SingleNews />} />
         </Routes>
         <Footer />
